@@ -1,0 +1,1339 @@
+Age,Sex,Bmi,Children,Smoker,Region,Charges,Claim
+19,Female,27.9,0,Smoker,Southwest,16884.924,Yes
+18,Male,33.77,1,Non Smoker,Southeast,1725.5523,Yes
+28,Male,33,3,Non Smoker,Southeast,4449.462,No
+33,Male,22.705,0,Non Smoker,Northwest,21984.47061,No
+32,Male,28.88,0,Non Smoker,Northwest,3866.8552,Yes
+31,Female,25.74,0,Non Smoker,Southeast,3756.6216,No
+46,Female,33.44,1,Non Smoker,Southeast,8240.5896,Yes
+37,Female,27.74,3,Non Smoker,Northwest,7281.5056,No
+37,Male,29.83,2,Non Smoker,Northeast,6406.4107,No
+60,Female,25.84,0,Non Smoker,Northwest,28923.13692,No
+25,Male,26.22,0,Non Smoker,Northeast,2721.3208,Yes
+62,Female,26.29,0,Smoker,Southeast,27808.7251,Yes
+23,Male,34.4,0,Non Smoker,Southwest,1826.843,Yes
+56,Female,39.82,0,Non Smoker,Southeast,11090.7178,Yes
+27,Male,42.13,0,Smoker,Southeast,39611.7577,Yes
+19,Male,24.6,1,Non Smoker,Southwest,1837.237,No
+52,Female,30.78,1,Non Smoker,Northeast,10797.3362,Yes
+23,Male,23.845,0,Non Smoker,Northeast,2395.17155,No
+56,Male,40.3,0,Non Smoker,Southwest,10602.385,Yes
+30,Male,35.3,0,Smoker,Southwest,36837.467,Yes
+60,Female,36.005,0,Non Smoker,Northeast,13228.84695,Yes
+30,Female,32.4,1,Non Smoker,Southwest,4149.736,Yes
+18,Male,34.1,0,Non Smoker,Southeast,1137.011,Yes
+34,Female,31.92,1,Smoker,Northeast,37701.8768,Yes
+37,Male,28.025,2,Non Smoker,Northwest,6203.90175,No
+59,Female,27.72,3,Non Smoker,Southeast,14001.1338,Yes
+63,Female,23.085,0,Non Smoker,Northeast,14451.83515,No
+55,Female,32.775,2,Non Smoker,Northwest,12268.63225,No
+23,Male,17.385,1,Non Smoker,Northwest,2775.19215,Yes
+31,Male,36.3,2,Smoker,Southwest,38711,Yes
+22,Male,35.6,0,Smoker,Southwest,35585.576,Yes
+18,Female,26.315,0,Non Smoker,Northeast,2198.18985,Yes
+19,Female,28.6,5,Non Smoker,Southwest,4687.797,No
+63,Male,28.31,0,Non Smoker,Northwest,13770.0979,Yes
+28,Male,36.4,1,Smoker,Southwest,51194.55914,Yes
+19,Male,20.425,0,Non Smoker,Northwest,1625.43375,No
+62,Female,32.965,3,Non Smoker,Northwest,15612.19335,No
+26,Male,20.8,0,Non Smoker,Southwest,2302.3,No
+35,Male,36.67,1,Smoker,Northeast,39774.2763,Yes
+60,Male,39.9,0,Smoker,Southwest,48173.361,Yes
+24,Female,26.6,0,Non Smoker,Northeast,3046.062,Yes
+31,Female,36.63,2,Non Smoker,Southeast,4949.7587,No
+41,Male,21.78,1,Non Smoker,Southeast,6272.4772,No
+37,Female,30.8,2,Non Smoker,Southeast,6313.759,No
+38,Male,37.05,1,Non Smoker,Northeast,6079.6715,No
+55,Male,37.3,0,Non Smoker,Southwest,20630.28351,Yes
+18,Female,38.665,2,Non Smoker,Northeast,3393.35635,No
+28,Female,34.77,0,Non Smoker,Northwest,3556.9223,Yes
+60,Female,24.53,0,Non Smoker,Southeast,12629.8967,No
+36,Male,35.2,1,Smoker,Southeast,38709.176,Yes
+18,Female,35.625,0,Non Smoker,Northeast,2211.13075,Yes
+21,Female,33.63,2,Non Smoker,Northwest,3579.8287,No
+48,Male,28,1,Smoker,Southwest,23568.272,Yes
+36,Male,34.43,0,Smoker,Southeast,37742.5757,Yes
+40,Female,28.69,3,Non Smoker,Northwest,8059.6791,No
+58,Male,36.955,2,Smoker,Northwest,47496.49445,Yes
+58,Female,31.825,2,Non Smoker,Northeast,13607.36875,No
+18,Male,31.68,2,Smoker,Southeast,34303.1672,Yes
+53,Female,22.88,1,Smoker,Southeast,23244.7902,Yes
+34,Female,37.335,2,Non Smoker,Northwest,5989.52365,No
+43,Male,27.36,3,Non Smoker,Northeast,8606.2174,Yes
+25,Male,33.66,4,Non Smoker,Southeast,4504.6624,No
+64,Male,24.7,1,Non Smoker,Northwest,30166.61817,No
+28,Female,25.935,1,Non Smoker,Northwest,4133.64165,No
+20,Female,22.42,0,Smoker,Northwest,14711.7438,Yes
+19,Female,28.9,0,Non Smoker,Southwest,1743.214,Yes
+61,Female,39.1,2,Non Smoker,Southwest,14235.072,Yes
+40,Male,26.315,1,Non Smoker,Northwest,6389.37785,No
+40,Female,36.19,0,Non Smoker,Southeast,5920.1041,Yes
+28,Male,23.98,3,Smoker,Southeast,17663.1442,No
+27,Female,24.75,0,Smoker,Southeast,16577.7795,Yes
+31,Male,28.5,5,Non Smoker,Northeast,6799.458,No
+53,Female,28.1,3,Non Smoker,Southwest,11741.726,Yes
+58,Male,32.01,1,Non Smoker,Southeast,11946.6259,Yes
+44,Male,27.4,2,Non Smoker,Southwest,7726.854,Yes
+57,Male,34.01,0,Non Smoker,Northwest,11356.6609,Yes
+29,Female,29.59,1,Non Smoker,Southeast,3947.4131,No
+21,Male,35.53,0,Non Smoker,Southeast,1532.4697,Yes
+22,Female,39.805,0,Non Smoker,Northeast,2755.02095,Yes
+41,Female,32.965,0,Non Smoker,Northwest,6571.02435,Yes
+31,Male,26.885,1,Non Smoker,Northeast,4441.21315,No
+45,Female,38.285,0,Non Smoker,Northeast,7935.29115,Yes
+22,Male,37.62,1,Smoker,Southeast,37165.1638,Yes
+48,Female,41.23,4,Non Smoker,Northwest,11033.6617,No
+37,Female,34.8,2,Smoker,Southwest,39836.519,Yes
+45,Male,22.895,2,Smoker,Northwest,21098.55405,Yes
+57,Female,31.16,0,Smoker,Northwest,43578.9394,Yes
+56,Female,27.2,0,Non Smoker,Southwest,11073.176,Yes
+46,Female,27.74,0,Non Smoker,Northwest,8026.6666,Yes
+55,Female,26.98,0,Non Smoker,Northwest,11082.5772,Yes
+21,Female,39.49,0,Non Smoker,Southeast,2026.9741,Yes
+53,Female,24.795,1,Non Smoker,Northwest,10942.13205,No
+59,Male,29.83,3,Smoker,Northeast,30184.9367,Yes
+35,Male,34.77,2,Non Smoker,Northwest,5729.0053,No
+64,Female,31.3,2,Smoker,Southwest,47291.055,Yes
+28,Female,37.62,1,Non Smoker,Southeast,3766.8838,No
+54,Female,30.8,3,Non Smoker,Southwest,12105.32,No
+55,Male,38.28,0,Non Smoker,Southeast,10226.2842,Yes
+56,Male,19.95,0,Smoker,Northeast,22412.6485,Yes
+38,Male,19.3,0,Smoker,Southwest,15820.699,Yes
+41,Female,31.6,0,Non Smoker,Southwest,6186.127,Yes
+30,Male,25.46,0,Non Smoker,Northeast,3645.0894,No
+18,Female,30.115,0,Non Smoker,Northeast,21344.8467,Yes
+61,Female,29.92,3,Smoker,Southeast,30942.1918,Yes
+34,Female,27.5,1,Non Smoker,Southwest,5003.853,No
+20,Male,28.025,1,Smoker,Northwest,17560.37975,Yes
+19,Female,28.4,1,Non Smoker,Southwest,2331.519,No
+26,Male,30.875,2,Non Smoker,Northwest,3877.30425,No
+29,Male,27.94,0,Non Smoker,Southeast,2867.1196,Yes
+63,Male,35.09,0,Smoker,Southeast,47055.5321,Yes
+54,Male,33.63,1,Non Smoker,Northwest,10825.2537,Yes
+55,Female,29.7,2,Non Smoker,Southwest,11881.358,Yes
+37,Male,30.8,0,Non Smoker,Southwest,4646.759,Yes
+21,Female,35.72,0,Non Smoker,Northwest,2404.7338,Yes
+52,Male,32.205,3,Non Smoker,Northeast,11488.31695,No
+60,Male,28.595,0,Non Smoker,Northeast,30259.99556,Yes
+58,Male,49.06,0,Non Smoker,Southeast,11381.3254,Yes
+29,Female,27.94,1,Smoker,Southeast,19107.7796,Yes
+49,Female,27.17,0,Non Smoker,Southeast,8601.3293,Yes
+37,Female,23.37,2,Non Smoker,Northwest,6686.4313,No
+44,Male,37.1,2,Non Smoker,Southwest,7740.337,Yes
+18,Male,23.75,0,Non Smoker,Northeast,1705.6245,No
+20,Female,28.975,0,Non Smoker,Northwest,2257.47525,Yes
+44,Male,31.35,1,Smoker,Northeast,39556.4945,Yes
+47,Female,33.915,3,Non Smoker,Northwest,10115.00885,No
+26,Female,28.785,0,Non Smoker,Northeast,3385.39915,Yes
+19,Female,28.3,0,Smoker,Southwest,17081.08,Yes
+52,Female,37.4,0,Non Smoker,Southwest,9634.538,Yes
+32,Female,17.765,2,Smoker,Northwest,32734.1863,No
+38,Male,34.7,2,Non Smoker,Southwest,6082.405,No
+59,Female,26.505,0,Non Smoker,Northeast,12815.44495,Yes
+61,Female,22.04,0,Non Smoker,Northeast,13616.3586,No
+53,Female,35.9,2,Non Smoker,Southwest,11163.568,Yes
+19,Male,25.555,0,Non Smoker,Northwest,1632.56445,No
+20,Female,28.785,0,Non Smoker,Northeast,2457.21115,Yes
+22,Female,28.05,0,Non Smoker,Southeast,2155.6815,Yes
+19,Male,34.1,0,Non Smoker,Southwest,1261.442,Yes
+22,Male,25.175,0,Non Smoker,Northwest,2045.68525,No
+54,Female,31.9,3,Non Smoker,Southeast,27322.73386,No
+22,Female,36,0,Non Smoker,Southwest,2166.732,Yes
+34,Male,22.42,2,Non Smoker,Northeast,27375.90478,No
+26,Male,32.49,1,Non Smoker,Northeast,3490.5491,Yes
+34,Male,25.3,2,Smoker,Southeast,18972.495,No
+29,Male,29.735,2,Non Smoker,Northwest,18157.876,No
+30,Male,28.69,3,Smoker,Northwest,20745.9891,No
+29,Female,38.83,3,Non Smoker,Southeast,5138.2567,No
+46,Male,30.495,3,Smoker,Northwest,40720.55105,Yes
+51,Female,37.73,1,Non Smoker,Southeast,9877.6077,Yes
+53,Female,37.43,1,Non Smoker,Northwest,10959.6947,Yes
+19,Male,28.4,1,Non Smoker,Southwest,1842.519,No
+35,Male,24.13,1,Non Smoker,Northwest,5125.2157,No
+48,Male,29.7,0,Non Smoker,Southeast,7789.635,Yes
+32,Female,37.145,3,Non Smoker,Northeast,6334.34355,No
+42,Female,23.37,0,Smoker,Northeast,19964.7463,Yes
+40,Female,25.46,1,Non Smoker,Northeast,7077.1894,No
+44,Male,39.52,0,Non Smoker,Northwest,6948.7008,Yes
+48,Male,24.42,0,Smoker,Southeast,21223.6758,Yes
+18,Male,25.175,0,Smoker,Northeast,15518.18025,Yes
+30,Male,35.53,0,Smoker,Southeast,36950.2567,Yes
+50,Female,27.83,3,Non Smoker,Southeast,19749.38338,Yes
+42,Female,26.6,0,Smoker,Northwest,21348.706,Yes
+18,Female,36.85,0,Smoker,Southeast,36149.4835,Yes
+54,Male,39.6,1,Non Smoker,Southwest,10450.552,Yes
+32,Female,29.8,2,Non Smoker,Southwest,5152.134,No
+37,Male,29.64,0,Non Smoker,Northwest,5028.1466,Yes
+47,Male,28.215,4,Non Smoker,Northeast,10407.08585,Yes
+20,Female,37,5,Non Smoker,Southwest,4830.63,No
+32,Female,33.155,3,Non Smoker,Northwest,6128.79745,No
+19,Female,31.825,1,Non Smoker,Northwest,2719.27975,Yes
+27,Male,18.905,3,Non Smoker,Northeast,4827.90495,No
+63,Male,41.47,0,Non Smoker,Southeast,13405.3903,Yes
+49,Male,30.3,0,Non Smoker,Southwest,8116.68,Yes
+18,Male,15.96,0,Non Smoker,Northeast,1694.7964,Yes
+35,Female,34.8,1,Non Smoker,Southwest,5246.047,Yes
+24,Female,33.345,0,Non Smoker,Northwest,2855.43755,Yes
+63,Female,37.7,0,Smoker,Southwest,48824.45,Yes
+38,Male,27.835,2,Non Smoker,Northwest,6455.86265,No
+54,Male,29.2,1,Non Smoker,Southwest,10436.096,No
+46,Female,28.9,2,Non Smoker,Southwest,8823.279,Yes
+41,Female,33.155,3,Non Smoker,Northeast,8538.28845,No
+58,Male,28.595,0,Non Smoker,Northwest,11735.87905,Yes
+18,Female,38.28,0,Non Smoker,Southeast,1631.8212,Yes
+22,Male,19.95,3,Non Smoker,Northeast,4005.4225,No
+44,Female,26.41,0,Non Smoker,Northwest,7419.4779,Yes
+44,Male,30.69,2,Non Smoker,Southeast,7731.4271,No
+36,Male,41.895,3,Smoker,Northeast,43753.33705,Yes
+26,Female,29.92,2,Non Smoker,Southeast,3981.9768,No
+30,Female,30.9,3,Non Smoker,Southwest,5325.651,No
+41,Female,32.2,1,Non Smoker,Southwest,6775.961,Yes
+29,Female,32.11,2,Non Smoker,Northwest,4922.9159,No
+61,Male,31.57,0,Non Smoker,Southeast,12557.6053,Yes
+36,Female,26.2,0,Non Smoker,Southwest,4883.866,Yes
+25,Male,25.74,0,Non Smoker,Southeast,2137.6536,No
+56,Female,26.6,1,Non Smoker,Northwest,12044.342,No
+18,Male,34.43,0,Non Smoker,Southeast,1137.4697,Yes
+19,Male,30.59,0,Non Smoker,Northwest,1639.5631,Yes
+39,Female,32.8,0,Non Smoker,Southwest,5649.715,Yes
+45,Female,28.6,2,Non Smoker,Southeast,8516.829,Yes
+51,Female,18.05,0,Non Smoker,Northwest,9644.2525,No
+64,Female,39.33,0,Non Smoker,Northeast,14901.5167,Yes
+19,Female,32.11,0,Non Smoker,Northwest,2130.6759,Yes
+48,Female,32.23,1,Non Smoker,Southeast,8871.1517,Yes
+60,Female,24.035,0,Non Smoker,Northwest,13012.20865,No
+27,Female,36.08,0,Smoker,Southeast,37133.8982,Yes
+46,Male,22.3,0,Non Smoker,Southwest,7147.105,No
+28,Female,28.88,1,Non Smoker,Northeast,4337.7352,No
+59,Male,26.4,0,Non Smoker,Southeast,11743.299,Yes
+35,Male,27.74,2,Smoker,Northeast,20984.0936,No
+63,Female,31.8,0,Non Smoker,Southwest,13880.949,Yes
+40,Male,41.23,1,Non Smoker,Northeast,6610.1097,Yes
+20,Male,33,1,Non Smoker,Southwest,1980.07,Yes
+40,Male,30.875,4,Non Smoker,Northwest,8162.71625,No
+24,Male,28.5,2,Non Smoker,Northwest,3537.703,No
+34,Female,26.73,1,Non Smoker,Southeast,5002.7827,No
+45,Female,30.9,2,Non Smoker,Southwest,8520.026,No
+41,Female,37.1,2,Non Smoker,Southwest,7371.772,Yes
+53,Female,26.6,0,Non Smoker,Northwest,10355.641,Yes
+27,Male,23.1,0,Non Smoker,Southeast,2483.736,No
+26,Female,29.92,1,Non Smoker,Southeast,3392.9768,No
+24,Female,23.21,0,Non Smoker,Southeast,25081.76784,No
+34,Female,33.7,1,Non Smoker,Southwest,5012.471,Yes
+53,Female,33.25,0,Non Smoker,Northeast,10564.8845,Yes
+32,Male,30.8,3,Non Smoker,Southwest,5253.524,No
+19,Male,34.8,0,Smoker,Southwest,34779.615,Yes
+42,Male,24.64,0,Smoker,Southeast,19515.5416,Yes
+55,Male,33.88,3,Non Smoker,Southeast,11987.1682,No
+28,Male,38.06,0,Non Smoker,Southeast,2689.4954,Yes
+58,Female,41.91,0,Non Smoker,Southeast,24227.33724,Yes
+41,Female,31.635,1,Non Smoker,Northeast,7358.17565,Yes
+47,Male,25.46,2,Non Smoker,Northeast,9225.2564,Yes
+42,Female,36.195,1,Non Smoker,Northwest,7443.64305,Yes
+59,Female,27.83,3,Non Smoker,Southeast,14001.2867,Yes
+19,Female,17.8,0,Non Smoker,Southwest,1727.785,No
+59,Male,27.5,1,Non Smoker,Southwest,12333.828,No
+39,Male,24.51,2,Non Smoker,Northwest,6710.1919,No
+40,Female,22.22,2,Smoker,Southeast,19444.2658,No
+18,Female,26.73,0,Non Smoker,Southeast,1615.7667,Yes
+31,Male,38.39,2,Non Smoker,Southeast,4463.2051,No
+19,Male,29.07,0,Smoker,Northwest,17352.6803,Yes
+44,Male,38.06,1,Non Smoker,Southeast,7152.6714,Yes
+23,Female,36.67,2,Smoker,Northeast,38511.6283,Yes
+33,Female,22.135,1,Non Smoker,Northeast,5354.07465,No
+55,Female,26.8,1,Non Smoker,Southwest,35160.13457,No
+40,Male,35.3,3,Non Smoker,Southwest,7196.867,No
+63,Female,27.74,0,Smoker,Northeast,29523.1656,Yes
+54,Male,30.02,0,Non Smoker,Northwest,24476.47851,Yes
+60,Female,38.06,0,Non Smoker,Southeast,12648.7034,Yes
+24,Male,35.86,0,Non Smoker,Southeast,1986.9334,Yes
+19,Male,20.9,1,Non Smoker,Southwest,1832.094,No
+29,Male,28.975,1,Non Smoker,Northeast,4040.55825,No
+18,Male,17.29,2,Smoker,Northeast,12829.4551,No
+63,Female,32.2,2,Smoker,Southwest,47305.305,Yes
+54,Male,34.21,2,Smoker,Southeast,44260.7499,Yes
+27,Male,30.3,3,Non Smoker,Southwest,4260.744,No
+50,Male,31.825,0,Smoker,Northeast,41097.16175,Yes
+55,Female,25.365,3,Non Smoker,Northeast,13047.33235,Yes
+56,Male,33.63,0,Smoker,Northwest,43921.1837,Yes
+38,Female,40.15,0,Non Smoker,Southeast,5400.9805,Yes
+51,Male,24.415,4,Non Smoker,Northwest,11520.09985,No
+19,Male,31.92,0,Smoker,Northwest,33750.2918,Yes
+58,Female,25.2,0,Non Smoker,Southwest,11837.16,No
+20,Female,26.84,1,Smoker,Southeast,17085.2676,Yes
+52,Male,24.32,3,Smoker,Northeast,24869.8368,Yes
+19,Male,36.955,0,Smoker,Northwest,36219.40545,Yes
+53,Female,38.06,3,Non Smoker,Southeast,20462.99766,No
+46,Male,42.35,3,Smoker,Southeast,46151.1245,Yes
+40,Male,19.8,1,Smoker,Southeast,17179.522,Yes
+59,Female,32.395,3,Non Smoker,Northeast,14590.63205,No
+45,Male,30.2,1,Non Smoker,Southwest,7441.053,Yes
+49,Male,25.84,1,Non Smoker,Northeast,9282.4806,No
+18,Male,29.37,1,Non Smoker,Southeast,1719.4363,No
+50,Male,34.2,2,Smoker,Southwest,42856.838,Yes
+41,Male,37.05,2,Non Smoker,Northwest,7265.7025,Yes
+50,Male,27.455,1,Non Smoker,Northeast,9617.66245,No
+25,Male,27.55,0,Non Smoker,Northwest,2523.1695,Yes
+47,Female,26.6,2,Non Smoker,Northeast,9715.841,Yes
+19,Male,20.615,2,Non Smoker,Northwest,2803.69785,No
+22,Female,24.3,0,Non Smoker,Southwest,2150.469,No
+59,Male,31.79,2,Non Smoker,Southeast,12928.7911,No
+51,Female,21.56,1,Non Smoker,Southeast,9855.1314,No
+40,Female,28.12,1,Smoker,Northeast,22331.5668,Yes
+54,Male,40.565,3,Smoker,Northeast,48549.17835,Yes
+30,Male,27.645,1,Non Smoker,Northeast,4237.12655,No
+55,Female,32.395,1,Non Smoker,Northeast,11879.10405,Yes
+52,Female,31.2,0,Non Smoker,Southwest,9625.92,Yes
+46,Male,26.62,1,Non Smoker,Southeast,7742.1098,No
+46,Female,48.07,2,Non Smoker,Northeast,9432.9253,Yes
+63,Female,26.22,0,Non Smoker,Northwest,14256.1928,Yes
+59,Female,36.765,1,Smoker,Northeast,47896.79135,Yes
+52,Male,26.4,3,Non Smoker,Southeast,25992.82104,Yes
+28,Female,33.4,0,Non Smoker,Southwest,3172.018,Yes
+29,Male,29.64,1,Non Smoker,Northeast,20277.80751,No
+25,Male,45.54,2,Smoker,Southeast,42112.2356,Yes
+22,Female,28.82,0,Non Smoker,Southeast,2156.7518,Yes
+25,Male,26.8,3,Non Smoker,Southwest,3906.127,No
+18,Male,22.99,0,Non Smoker,Northeast,1704.5681,No
+19,Male,27.7,0,Smoker,Southwest,16297.846,Yes
+47,Male,25.41,1,Smoker,Southeast,21978.6769,Yes
+31,Male,34.39,3,Smoker,Northwest,38746.3551,Yes
+48,Female,28.88,1,Non Smoker,Northwest,9249.4952,No
+36,Male,27.55,3,Non Smoker,Northeast,6746.7425,No
+53,Female,22.61,3,Smoker,Northeast,24873.3849,Yes
+56,Female,37.51,2,Non Smoker,Southeast,12265.5069,Yes
+28,Female,33,2,Non Smoker,Southeast,4349.462,No
+57,Female,38,2,Non Smoker,Southwest,12646.207,Yes
+29,Male,33.345,2,Non Smoker,Northwest,19442.3535,No
+28,Female,27.5,2,Non Smoker,Southwest,20177.67113,No
+30,Female,33.33,1,Non Smoker,Southeast,4151.0287,Yes
+58,Male,34.865,0,Non Smoker,Northeast,11944.59435,Yes
+41,Female,33.06,2,Non Smoker,Northwest,7749.1564,No
+50,Male,26.6,0,Non Smoker,Southwest,8444.474,Yes
+19,Female,24.7,0,Non Smoker,Southwest,1737.376,No
+43,Male,35.97,3,Smoker,Southeast,42124.5153,Yes
+49,Male,35.86,0,Non Smoker,Southeast,8124.4084,Yes
+27,Female,31.4,0,Smoker,Southwest,34838.873,Yes
+52,Male,33.25,0,Non Smoker,Northeast,9722.7695,Yes
+50,Male,32.205,0,Non Smoker,Northwest,8835.26495,Yes
+54,Male,32.775,0,Non Smoker,Northeast,10435.06525,Yes
+44,Female,27.645,0,Non Smoker,Northwest,7421.19455,Yes
+32,Male,37.335,1,Non Smoker,Northeast,4667.60765,No
+34,Male,25.27,1,Non Smoker,Northwest,4894.7533,No
+26,Female,29.64,4,Non Smoker,Northeast,24671.66334,No
+34,Male,30.8,0,Smoker,Southwest,35491.64,Yes
+57,Male,40.945,0,Non Smoker,Northeast,11566.30055,Yes
+29,Male,27.2,0,Non Smoker,Southwest,2866.091,Yes
+40,Male,34.105,1,Non Smoker,Northeast,6600.20595,Yes
+27,Female,23.21,1,Non Smoker,Southeast,3561.8889,No
+45,Male,36.48,2,Smoker,Northwest,42760.5022,Yes
+64,Female,33.8,1,Smoker,Southwest,47928.03,Yes
+52,Male,36.7,0,Non Smoker,Southwest,9144.565,Yes
+61,Female,36.385,1,Smoker,Northeast,48517.56315,Yes
+52,Male,27.36,0,Smoker,Northwest,24393.6224,Yes
+61,Female,31.16,0,Non Smoker,Northwest,13429.0354,Yes
+56,Female,28.785,0,Non Smoker,Northeast,11658.37915,Yes
+43,Female,35.72,2,Non Smoker,Northeast,19144.57652,Yes
+64,Male,34.5,0,Non Smoker,Southwest,13822.803,Yes
+60,Male,25.74,0,Non Smoker,Southeast,12142.5786,No
+62,Male,27.55,1,Non Smoker,Northwest,13937.6665,No
+50,Male,32.3,1,Smoker,Northeast,41919.097,Yes
+46,Female,27.72,1,Non Smoker,Southeast,8232.6388,No
+24,Female,27.6,0,Non Smoker,Southwest,18955.22017,Yes
+62,Male,30.02,0,Non Smoker,Northwest,13352.0998,Yes
+60,Female,27.55,0,Non Smoker,Northeast,13217.0945,Yes
+63,Male,36.765,0,Non Smoker,Northeast,13981.85035,Yes
+49,Female,41.47,4,Non Smoker,Southeast,10977.2063,No
+34,Female,29.26,3,Non Smoker,Southeast,6184.2994,No
+33,Male,35.75,2,Non Smoker,Southeast,4889.9995,No
+46,Male,33.345,1,Non Smoker,Northeast,8334.45755,Yes
+36,Female,29.92,1,Non Smoker,Southeast,5478.0368,No
+19,Male,27.835,0,Non Smoker,Northwest,1635.73365,Yes
+57,Female,23.18,0,Non Smoker,Northwest,11830.6072,No
+50,Female,25.6,0,Non Smoker,Southwest,8932.084,No
+30,Female,27.7,0,Non Smoker,Southwest,3554.203,Yes
+33,Male,35.245,0,Non Smoker,Northeast,12404.8791,Yes
+18,Female,38.28,0,Non Smoker,Southeast,14133.03775,Yes
+46,Male,27.6,0,Non Smoker,Southwest,24603.04837,Yes
+46,Male,43.89,3,Non Smoker,Southeast,8944.1151,No
+47,Male,29.83,3,Non Smoker,Northwest,9620.3307,Yes
+23,Male,41.91,0,Non Smoker,Southeast,1837.2819,Yes
+18,Female,20.79,0,Non Smoker,Southeast,1607.5101,No
+48,Female,32.3,2,Non Smoker,Northeast,10043.249,No
+35,Male,30.5,1,Non Smoker,Southwest,4751.07,No
+19,Female,21.7,0,Smoker,Southwest,13844.506,Yes
+21,Female,26.4,1,Non Smoker,Southwest,2597.779,No
+21,Female,21.89,2,Non Smoker,Southeast,3180.5101,No
+49,Female,30.78,1,Non Smoker,Northeast,9778.3472,Yes
+56,Female,32.3,3,Non Smoker,Northeast,13430.265,No
+42,Female,24.985,2,Non Smoker,Northwest,8017.06115,No
+44,Male,32.015,2,Non Smoker,Northwest,8116.26885,No
+18,Male,30.4,3,Non Smoker,Northeast,3481.868,No
+61,Female,21.09,0,Non Smoker,Northwest,13415.0381,No
+57,Female,22.23,0,Non Smoker,Northeast,12029.2867,No
+42,Female,33.155,1,Non Smoker,Northeast,7639.41745,Yes
+26,Male,32.9,2,Smoker,Southwest,36085.219,Yes
+20,Male,33.33,0,Non Smoker,Southeast,1391.5287,Yes
+23,Female,28.31,0,Smoker,Northwest,18033.9679,Yes
+39,Female,24.89,3,Smoker,Northeast,21659.9301,No
+24,Male,40.15,0,Smoker,Southeast,38126.2465,Yes
+64,Female,30.115,3,Non Smoker,Northwest,16455.70785,No
+62,Male,31.46,1,Non Smoker,Southeast,27000.98473,Yes
+27,Female,17.955,2,Smoker,Northeast,15006.57945,No
+55,Male,30.685,0,Smoker,Northeast,42303.69215,Yes
+55,Male,33,0,Non Smoker,Southeast,20781.48892,Yes
+35,Female,43.34,2,Non Smoker,Southeast,5846.9176,No
+44,Male,22.135,2,Non Smoker,Northeast,8302.53565,No
+19,Male,34.4,0,Non Smoker,Southwest,1261.859,Yes
+58,Female,39.05,0,Non Smoker,Southeast,11856.4115,Yes
+50,Male,25.365,2,Non Smoker,Northwest,30284.64294,Yes
+26,Female,22.61,0,Non Smoker,Northwest,3176.8159,No
+24,Female,30.21,3,Non Smoker,Northwest,4618.0799,No
+48,Male,35.625,4,Non Smoker,Northeast,10736.87075,No
+19,Female,37.43,0,Non Smoker,Northwest,2138.0707,Yes
+48,Male,31.445,1,Non Smoker,Northeast,8964.06055,Yes
+49,Male,31.35,1,Non Smoker,Northeast,9290.1395,Yes
+46,Female,32.3,2,Non Smoker,Northeast,9411.005,No
+46,Male,19.855,0,Non Smoker,Northwest,7526.70645,No
+43,Female,34.4,3,Non Smoker,Southwest,8522.003,No
+21,Male,31.02,0,Non Smoker,Southeast,16586.49771,Yes
+64,Male,25.6,2,Non Smoker,Southwest,14988.432,Yes
+18,Female,38.17,0,Non Smoker,Southeast,1631.6683,Yes
+51,Female,20.6,0,Non Smoker,Southwest,9264.797,No
+47,Male,47.52,1,Non Smoker,Southeast,8083.9198,Yes
+64,Female,32.965,0,Non Smoker,Northwest,14692.66935,Yes
+49,Male,32.3,3,Non Smoker,Northwest,10269.46,No
+31,Male,20.4,0,Non Smoker,Southwest,3260.199,No
+52,Female,38.38,2,Non Smoker,Northeast,11396.9002,Yes
+33,Female,24.31,0,Non Smoker,Southeast,4185.0979,No
+47,Female,23.6,1,Non Smoker,Southwest,8539.671,No
+38,Male,21.12,3,Non Smoker,Southeast,6652.5288,No
+32,Male,30.03,1,Non Smoker,Southeast,4074.4537,No
+19,Male,17.48,0,Non Smoker,Northwest,1621.3402,Yes
+44,Female,20.235,1,Smoker,Northeast,19594.80965,Yes
+26,Female,17.195,2,Smoker,Northeast,14455.64405,No
+25,Male,23.9,5,Non Smoker,Southwest,5080.096,No
+19,Female,35.15,0,Non Smoker,Northwest,2134.9015,Yes
+43,Female,35.64,1,Non Smoker,Southeast,7345.7266,Yes
+52,Male,34.1,0,Non Smoker,Southeast,9140.951,Yes
+36,Female,22.6,2,Smoker,Southwest,18608.262,No
+64,Male,39.16,1,Non Smoker,Southeast,14418.2804,Yes
+63,Female,26.98,0,Smoker,Northwest,28950.4692,Yes
+64,Male,33.88,0,Smoker,Southeast,46889.2612,Yes
+61,Male,35.86,0,Smoker,Southeast,46599.1084,Yes
+40,Male,32.775,1,Smoker,Northeast,39125.33225,Yes
+25,Male,30.59,0,Non Smoker,Northeast,2727.3951,Yes
+48,Male,30.2,2,Non Smoker,Southwest,8968.33,No
+45,Male,24.31,5,Non Smoker,Southeast,9788.8659,No
+38,Female,27.265,1,Non Smoker,Northeast,6555.07035,No
+18,Female,29.165,0,Non Smoker,Northeast,7323.734819,Yes
+21,Female,16.815,1,Non Smoker,Northeast,3167.45585,Yes
+27,Female,30.4,3,Non Smoker,Northwest,18804.7524,No
+19,Male,33.1,0,Non Smoker,Southwest,23082.95533,Yes
+29,Female,20.235,2,Non Smoker,Northwest,4906.40965,No
+42,Male,26.9,0,Non Smoker,Southwest,5969.723,Yes
+60,Female,30.5,0,Non Smoker,Southwest,12638.195,Yes
+31,Male,28.595,1,Non Smoker,Northwest,4243.59005,No
+60,Male,33.11,3,Non Smoker,Southeast,13919.8229,No
+22,Male,31.73,0,Non Smoker,Northeast,2254.7967,Yes
+35,Male,28.9,3,Non Smoker,Southwest,5926.846,No
+52,Female,46.75,5,Non Smoker,Southeast,12592.5345,Yes
+26,Male,29.45,0,Non Smoker,Northeast,2897.3235,Yes
+31,Female,32.68,1,Non Smoker,Northwest,4738.2682,Yes
+33,Female,33.5,0,Smoker,Southwest,37079.372,Yes
+18,Male,43.01,0,Non Smoker,Southeast,1149.3959,Yes
+59,Female,36.52,1,Non Smoker,Southeast,28287.89766,Yes
+56,Male,26.695,1,Smoker,Northwest,26109.32905,Yes
+45,Female,33.1,0,Non Smoker,Southwest,7345.084,Yes
+60,Male,29.64,0,Non Smoker,Northeast,12730.9996,Yes
+56,Female,25.65,0,Non Smoker,Northwest,11454.0215,No
+40,Female,29.6,0,Non Smoker,Southwest,5910.944,Yes
+35,Male,38.6,1,Non Smoker,Southwest,4762.329,No
+39,Male,29.6,4,Non Smoker,Southwest,7512.267,No
+30,Male,24.13,1,Non Smoker,Northwest,4032.2407,No
+24,Male,23.4,0,Non Smoker,Southwest,1969.614,No
+20,Male,29.735,0,Non Smoker,Northwest,1769.53165,Yes
+32,Male,46.53,2,Non Smoker,Southeast,4686.3887,Yes
+59,Male,37.4,0,Non Smoker,Southwest,21797.0004,Yes
+55,Female,30.14,2,Non Smoker,Southeast,11881.9696,No
+57,Female,30.495,0,Non Smoker,Northwest,11840.77505,Yes
+56,Male,39.6,0,Non Smoker,Southwest,10601.412,Yes
+40,Female,33,3,Non Smoker,Southeast,7682.67,No
+49,Female,36.63,3,Non Smoker,Southeast,10381.4787,No
+42,Male,30,0,Smoker,Southwest,22144.032,Yes
+62,Female,38.095,2,Non Smoker,Northeast,15230.32405,Yes
+56,Male,25.935,0,Non Smoker,Northeast,11165.41765,No
+19,Male,25.175,0,Non Smoker,Northwest,1632.03625,No
+30,Female,28.38,1,Smoker,Southeast,19521.9682,Yes
+60,Female,28.7,1,Non Smoker,Southwest,13224.693,No
+56,Female,33.82,2,Non Smoker,Northwest,12643.3778,No
+28,Female,24.32,1,Non Smoker,Northeast,23288.9284,No
+18,Female,24.09,1,Non Smoker,Southeast,2201.0971,No
+27,Male,32.67,0,Non Smoker,Southeast,2497.0383,Yes
+18,Female,30.115,0,Non Smoker,Northeast,2203.47185,Yes
+19,Female,29.8,0,Non Smoker,Southwest,1744.465,Yes
+47,Female,33.345,0,Non Smoker,Northeast,20878.78443,Yes
+54,Male,25.1,3,Smoker,Southwest,25382.297,Yes
+61,Male,28.31,1,Smoker,Northwest,28868.6639,Yes
+24,Male,28.5,0,Smoker,Northeast,35147.52848,Yes
+25,Male,35.625,0,Non Smoker,Northwest,2534.39375,Yes
+21,Male,36.85,0,Non Smoker,Southeast,1534.3045,Yes
+23,Male,32.56,0,Non Smoker,Southeast,1824.2854,Yes
+63,Male,41.325,3,Non Smoker,Northwest,15555.18875,No
+49,Male,37.51,2,Non Smoker,Southeast,9304.7019,Yes
+18,Female,31.35,0,Non Smoker,Southeast,1622.1885,Yes
+51,Female,39.5,1,Non Smoker,Southwest,9880.068,Yes
+48,Male,34.3,3,Non Smoker,Southwest,9563.029,No
+31,Female,31.065,0,Non Smoker,Northeast,4347.02335,Yes
+54,Female,21.47,3,Non Smoker,Northwest,12475.3513,No
+19,Male,28.7,0,Non Smoker,Southwest,1253.936,Yes
+44,Female,38.06,0,Smoker,Southeast,48885.13561,Yes
+53,Male,31.16,1,Non Smoker,Northwest,10461.9794,Yes
+19,Female,32.9,0,Non Smoker,Southwest,1748.774,Yes
+61,Female,25.08,0,Non Smoker,Southeast,24513.09126,No
+18,Female,25.08,0,Non Smoker,Northeast,2196.4732,No
+61,Male,43.4,0,Non Smoker,Southwest,12574.049,Yes
+21,Male,25.7,4,Smoker,Southwest,17942.106,No
+20,Male,27.93,0,Non Smoker,Northeast,1967.0227,Yes
+31,Female,23.6,2,Non Smoker,Southwest,4931.647,No
+45,Male,28.7,2,Non Smoker,Southwest,8027.968,Yes
+44,Female,23.98,2,Non Smoker,Southeast,8211.1002,No
+62,Female,39.2,0,Non Smoker,Southwest,13470.86,Yes
+29,Male,34.4,0,Smoker,Southwest,36197.699,Yes
+43,Male,26.03,0,Non Smoker,Northeast,6837.3687,Yes
+51,Male,23.21,1,Smoker,Southeast,22218.1149,Yes
+19,Male,30.25,0,Smoker,Southeast,32548.3405,Yes
+38,Female,28.93,1,Non Smoker,Southeast,5974.3847,No
+37,Male,30.875,3,Non Smoker,Northwest,6796.86325,No
+22,Male,31.35,1,Non Smoker,Northwest,2643.2685,Yes
+21,Male,23.75,2,Non Smoker,Northwest,3077.0955,No
+24,Female,25.27,0,Non Smoker,Northeast,3044.2133,No
+57,Female,28.7,0,Non Smoker,Southwest,11455.28,Yes
+56,Male,32.11,1,Non Smoker,Northeast,11763.0009,Yes
+27,Male,33.66,0,Non Smoker,Southeast,2498.4144,Yes
+51,Male,22.42,0,Non Smoker,Northeast,9361.3268,No
+19,Male,30.4,0,Non Smoker,Southwest,1256.299,Yes
+39,Male,28.3,1,Smoker,Southwest,21082.16,Yes
+58,Male,35.7,0,Non Smoker,Southwest,11362.755,Yes
+20,Male,35.31,1,Non Smoker,Southeast,27724.28875,No
+45,Male,30.495,2,Non Smoker,Northwest,8413.46305,No
+35,Female,31,1,Non Smoker,Southwest,5240.765,No
+31,Male,30.875,0,Non Smoker,Northeast,3857.75925,Yes
+50,Female,27.36,0,Non Smoker,Northeast,25656.57526,Yes
+32,Female,44.22,0,Non Smoker,Southeast,3994.1778,Yes
+51,Female,33.915,0,Non Smoker,Northeast,9866.30485,Yes
+38,Female,37.73,0,Non Smoker,Southeast,5397.6167,Yes
+42,Male,26.07,1,Smoker,Southeast,38245.59327,Yes
+18,Female,33.88,0,Non Smoker,Southeast,11482.63485,Yes
+19,Female,30.59,2,Non Smoker,Northwest,24059.68019,No
+51,Female,25.8,1,Non Smoker,Southwest,9861.025,No
+46,Male,39.425,1,Non Smoker,Northeast,8342.90875,Yes
+18,Male,25.46,0,Non Smoker,Northeast,1708.0014,No
+57,Male,42.13,1,Smoker,Southeast,48675.5177,Yes
+62,Female,31.73,0,Non Smoker,Northeast,14043.4767,Yes
+59,Male,29.7,2,Non Smoker,Southeast,12925.886,Yes
+37,Male,36.19,0,Non Smoker,Southeast,19214.70553,Yes
+64,Male,40.48,0,Non Smoker,Southeast,13831.1152,Yes
+38,Male,28.025,1,Non Smoker,Northeast,6067.12675,No
+33,Female,38.9,3,Non Smoker,Southwest,5972.378,No
+46,Female,30.2,2,Non Smoker,Southwest,8825.086,No
+46,Female,28.05,1,Non Smoker,Southeast,8233.0975,No
+53,Male,31.35,0,Non Smoker,Southeast,27346.04207,Yes
+34,Female,38,3,Non Smoker,Southwest,6196.448,No
+20,Female,31.79,2,Non Smoker,Southeast,3056.3881,No
+63,Female,36.3,0,Non Smoker,Southeast,13887.204,Yes
+54,Female,47.41,0,Smoker,Southeast,63770.42801,Yes
+54,Male,30.21,0,Non Smoker,Northwest,10231.4999,Yes
+49,Male,25.84,2,Smoker,Northwest,23807.2406,Yes
+28,Male,35.435,0,Non Smoker,Northeast,3268.84665,Yes
+54,Female,46.7,2,Non Smoker,Southwest,11538.421,Yes
+25,Female,28.595,0,Non Smoker,Northeast,3213.62205,Yes
+43,Female,46.2,0,Smoker,Southeast,45863.205,Yes
+63,Male,30.8,0,Non Smoker,Southwest,13390.559,Yes
+32,Female,28.93,0,Non Smoker,Southeast,3972.9247,Yes
+62,Male,21.4,0,Non Smoker,Southwest,12957.118,No
+52,Female,31.73,2,Non Smoker,Northwest,11187.6567,No
+25,Female,41.325,0,Non Smoker,Northeast,17878.90068,Yes
+28,Male,23.8,2,Non Smoker,Southwest,3847.674,No
+46,Male,33.44,1,Non Smoker,Northeast,8334.5896,Yes
+34,Male,34.21,0,Non Smoker,Southeast,3935.1799,Yes
+35,Female,34.105,3,Smoker,Northwest,39983.42595,Yes
+19,Male,35.53,0,Non Smoker,Northwest,1646.4297,Yes
+46,Female,19.95,2,Non Smoker,Northwest,9193.8385,No
+54,Female,32.68,0,Non Smoker,Northeast,10923.9332,Yes
+27,Male,30.5,0,Non Smoker,Southwest,2494.022,Yes
+50,Male,44.77,1,Non Smoker,Southeast,9058.7303,Yes
+18,Female,32.12,2,Non Smoker,Southeast,2801.2588,No
+19,Female,30.495,0,Non Smoker,Northwest,2128.43105,Yes
+38,Female,40.565,1,Non Smoker,Northwest,6373.55735,Yes
+41,Male,30.59,2,Non Smoker,Northwest,7256.7231,No
+49,Female,31.9,5,Non Smoker,Southwest,11552.904,No
+48,Male,40.565,2,Smoker,Northwest,45702.02235,Yes
+31,Female,29.1,0,Non Smoker,Southwest,3761.292,Yes
+18,Female,37.29,1,Non Smoker,Southeast,2219.4451,No
+30,Female,43.12,2,Non Smoker,Southeast,4753.6368,No
+62,Female,36.86,1,Non Smoker,Northeast,31620.00106,Yes
+57,Female,34.295,2,Non Smoker,Northeast,13224.05705,No
+58,Female,27.17,0,Non Smoker,Northwest,12222.8983,Yes
+22,Male,26.84,0,Non Smoker,Southeast,1664.9996,Yes
+31,Female,38.095,1,Smoker,Northeast,58571.07448,Yes
+52,Male,30.2,1,Non Smoker,Southwest,9724.53,Yes
+25,Female,23.465,0,Non Smoker,Northeast,3206.49135,No
+59,Male,25.46,1,Non Smoker,Northeast,12913.9924,No
+19,Male,30.59,0,Non Smoker,Northwest,1639.5631,Yes
+39,Male,45.43,2,Non Smoker,Southeast,6356.2707,Yes
+32,Female,23.65,1,Non Smoker,Southeast,17626.23951,No
+19,Male,20.7,0,Non Smoker,Southwest,1242.816,No
+33,Female,28.27,1,Non Smoker,Southeast,4779.6023,No
+21,Male,20.235,3,Non Smoker,Northeast,3861.20965,No
+34,Female,30.21,1,Smoker,Northwest,43943.8761,Yes
+61,Female,35.91,0,Non Smoker,Northeast,13635.6379,Yes
+38,Female,30.69,1,Non Smoker,Southeast,5976.8311,No
+58,Female,29,0,Non Smoker,Southwest,11842.442,Yes
+47,Male,19.57,1,Non Smoker,Northwest,8428.0693,No
+20,Male,31.13,2,Non Smoker,Southeast,2566.4707,No
+21,Female,21.85,1,Smoker,Northeast,15359.1045,Yes
+41,Male,40.26,0,Non Smoker,Southeast,5709.1644,Yes
+46,Female,33.725,1,Non Smoker,Northeast,8823.98575,Yes
+42,Female,29.48,2,Non Smoker,Southeast,7640.3092,Yes
+34,Female,33.25,1,Non Smoker,Northeast,5594.8455,Yes
+43,Male,32.6,2,Non Smoker,Southwest,7441.501,No
+52,Female,37.525,2,Non Smoker,Northwest,33471.97189,Yes
+18,Female,39.16,0,Non Smoker,Southeast,1633.0444,Yes
+51,Male,31.635,0,Non Smoker,Northwest,9174.13565,Yes
+56,Female,25.3,0,Non Smoker,Southwest,11070.535,No
+64,Female,39.05,3,Non Smoker,Southeast,16085.1275,No
+19,Female,28.31,0,Smoker,Northwest,17468.9839,Yes
+51,Female,34.1,0,Non Smoker,Southeast,9283.562,Yes
+27,Female,25.175,0,Non Smoker,Northeast,3558.62025,No
+59,Female,23.655,0,Smoker,Northwest,25678.77845,Yes
+28,Male,26.98,2,Non Smoker,Northeast,4435.0942,No
+30,Male,37.8,2,Smoker,Southwest,39241.442,Yes
+47,Female,29.37,1,Non Smoker,Southeast,8547.6913,No
+38,Female,34.8,2,Non Smoker,Southwest,6571.544,No
+18,Female,33.155,0,Non Smoker,Northeast,2207.69745,Yes
+34,Female,19,3,Non Smoker,Northeast,6753.038,No
+20,Female,33,0,Non Smoker,Southeast,1880.07,Yes
+47,Female,36.63,1,Smoker,Southeast,42969.8527,Yes
+56,Female,28.595,0,Non Smoker,Northeast,11658.11505,Yes
+49,Male,25.6,2,Smoker,Southwest,23306.547,Yes
+19,Female,33.11,0,Smoker,Southeast,34439.8559,Yes
+55,Female,37.1,0,Non Smoker,Southwest,10713.644,Yes
+30,Male,31.4,1,Non Smoker,Southwest,3659.346,Yes
+37,Male,34.1,4,Smoker,Southwest,40182.246,Yes
+49,Female,21.3,1,Non Smoker,Southwest,9182.17,No
+18,Male,33.535,0,Smoker,Northeast,34617.84065,Yes
+59,Male,28.785,0,Non Smoker,Northwest,12129.61415,Yes
+29,Female,26.03,0,Non Smoker,Northwest,3736.4647,Yes
+36,Male,28.88,3,Non Smoker,Northeast,6748.5912,No
+33,Male,42.46,1,Non Smoker,Southeast,11326.71487,Yes
+58,Male,38,0,Non Smoker,Southwest,11365.952,Yes
+44,Female,38.95,0,Smoker,Northwest,42983.4585,Yes
+53,Male,36.1,1,Non Smoker,Southwest,10085.846,Yes
+24,Male,29.3,0,Non Smoker,Southwest,1977.815,Yes
+29,Female,35.53,0,Non Smoker,Southeast,3366.6697,Yes
+40,Male,22.705,2,Non Smoker,Northeast,7173.35995,No
+51,Male,39.7,1,Non Smoker,Southwest,9391.346,Yes
+64,Male,38.19,0,Non Smoker,Northeast,14410.9321,Yes
+19,Female,24.51,1,Non Smoker,Northwest,2709.1119,No
+35,Female,38.095,2,Non Smoker,Northeast,24915.04626,No
+39,Male,26.41,0,Smoker,Northeast,20149.3229,Yes
+56,Male,33.66,4,Non Smoker,Southeast,12949.1554,No
+33,Male,42.4,5,Non Smoker,Southwest,6666.243,No
+42,Male,28.31,3,Smoker,Northwest,32787.45859,No
+61,Male,33.915,0,Non Smoker,Northeast,13143.86485,Yes
+23,Female,34.96,3,Non Smoker,Northwest,4466.6214,No
+43,Male,35.31,2,Non Smoker,Southeast,18806.14547,Yes
+48,Male,30.78,3,Non Smoker,Northeast,10141.1362,No
+39,Male,26.22,1,Non Smoker,Northwest,6123.5688,No
+40,Female,23.37,3,Non Smoker,Northeast,8252.2843,No
+18,Male,28.5,0,Non Smoker,Northeast,1712.227,Yes
+58,Female,32.965,0,Non Smoker,Northeast,12430.95335,Yes
+49,Female,42.68,2,Non Smoker,Southeast,9800.8882,No
+53,Female,39.6,1,Non Smoker,Southeast,10579.711,Yes
+48,Female,31.13,0,Non Smoker,Southeast,8280.6227,Yes
+45,Female,36.3,2,Non Smoker,Southeast,8527.532,Yes
+59,Female,35.2,0,Non Smoker,Southeast,12244.531,Yes
+52,Female,25.3,2,Smoker,Southeast,24667.419,Yes
+26,Female,42.4,1,Non Smoker,Southwest,3410.324,Yes
+27,Male,33.155,2,Non Smoker,Northwest,4058.71245,No
+48,Female,35.91,1,Non Smoker,Northeast,26392.26029,Yes
+57,Female,28.785,4,Non Smoker,Northeast,14394.39815,Yes
+37,Male,46.53,3,Non Smoker,Southeast,6435.6237,Yes
+57,Female,23.98,1,Non Smoker,Southeast,22192.43711,No
+32,Female,31.54,1,Non Smoker,Northeast,5148.5526,Yes
+18,Male,33.66,0,Non Smoker,Southeast,1136.3994,Yes
+64,Female,22.99,0,Smoker,Southeast,27037.9141,Yes
+43,Male,38.06,2,Smoker,Southeast,42560.4304,Yes
+49,Male,28.7,1,Non Smoker,Southwest,8703.456,No
+40,Female,32.775,2,Smoker,Northwest,40003.33225,Yes
+62,Male,32.015,0,Smoker,Northeast,45710.20785,Yes
+40,Female,29.81,1,Non Smoker,Southeast,6500.2359,No
+30,Male,31.57,3,Non Smoker,Southeast,4837.5823,No
+29,Female,31.16,0,Non Smoker,Northeast,3943.5954,Yes
+36,Male,29.7,0,Non Smoker,Southeast,4399.731,Yes
+41,Female,31.02,0,Non Smoker,Southeast,6185.3208,Yes
+44,Female,43.89,2,Smoker,Southeast,46200.9851,Yes
+45,Male,21.375,0,Non Smoker,Northwest,7222.78625,No
+55,Female,40.81,3,Non Smoker,Southeast,12485.8009,No
+60,Male,31.35,3,Smoker,Northwest,46130.5265,Yes
+56,Male,36.1,3,Non Smoker,Southwest,12363.547,No
+49,Female,23.18,2,Non Smoker,Northwest,10156.7832,No
+21,Female,17.4,1,Non Smoker,Southwest,2585.269,Yes
+19,Male,20.3,0,Non Smoker,Southwest,1242.26,No
+39,Male,35.3,2,Smoker,Southwest,40103.89,Yes
+53,Male,24.32,0,Non Smoker,Northwest,9863.4718,No
+33,Female,18.5,1,Non Smoker,Southwest,4766.022,No
+53,Male,26.41,2,Non Smoker,Northeast,11244.3769,Yes
+42,Male,26.125,2,Non Smoker,Northeast,7729.64575,Yes
+40,Male,41.69,0,Non Smoker,Southeast,5438.7491,Yes
+47,Female,24.1,1,Non Smoker,Southwest,26236.57997,No
+27,Male,31.13,1,Smoker,Southeast,34806.4677,Yes
+21,Male,27.36,0,Non Smoker,Northeast,2104.1134,Yes
+47,Male,36.2,1,Non Smoker,Southwest,8068.185,Yes
+20,Male,32.395,1,Non Smoker,Northwest,2362.22905,Yes
+24,Male,23.655,0,Non Smoker,Northwest,2352.96845,No
+27,Female,34.8,1,Non Smoker,Southwest,3577.999,Yes
+26,Female,40.185,0,Non Smoker,Northwest,3201.24515,Yes
+53,Female,32.3,2,Non Smoker,Northeast,29186.48236,No
+41,Male,35.75,1,Smoker,Southeast,40273.6455,Yes
+56,Male,33.725,0,Non Smoker,Northwest,10976.24575,Yes
+23,Female,39.27,2,Non Smoker,Southeast,3500.6123,No
+21,Female,34.87,0,Non Smoker,Southeast,2020.5523,Yes
+50,Female,44.745,0,Non Smoker,Northeast,9541.69555,Yes
+53,Male,41.47,0,Non Smoker,Southeast,9504.3103,Yes
+34,Female,26.41,1,Non Smoker,Northwest,5385.3379,No
+47,Female,29.545,1,Non Smoker,Northwest,8930.93455,No
+33,Female,32.9,2,Non Smoker,Southwest,5375.038,No
+51,Female,38.06,0,Smoker,Southeast,44400.4064,Yes
+49,Male,28.69,3,Non Smoker,Northwest,10264.4421,Yes
+31,Female,30.495,3,Non Smoker,Northeast,6113.23105,No
+36,Female,27.74,0,Non Smoker,Northeast,5469.0066,Yes
+18,Male,35.2,1,Non Smoker,Southeast,1727.54,No
+50,Female,23.54,2,Non Smoker,Southeast,10107.2206,No
+43,Female,30.685,2,Non Smoker,Northwest,8310.83915,No
+20,Male,40.47,0,Non Smoker,Northeast,1984.4533,Yes
+24,Female,22.6,0,Non Smoker,Southwest,2457.502,No
+60,Male,28.9,0,Non Smoker,Southwest,12146.971,Yes
+49,Female,22.61,1,Non Smoker,Northwest,9566.9909,No
+60,Male,24.32,1,Non Smoker,Northwest,13112.6048,No
+51,Female,36.67,2,Non Smoker,Northwest,10848.1343,Yes
+58,Female,33.44,0,Non Smoker,Northwest,12231.6136,Yes
+51,Female,40.66,0,Non Smoker,Northeast,9875.6804,Yes
+53,Male,36.6,3,Non Smoker,Southwest,11264.541,No
+62,Male,37.4,0,Non Smoker,Southwest,12979.358,Yes
+19,Male,35.4,0,Non Smoker,Southwest,1263.249,Yes
+50,Female,27.075,1,Non Smoker,Northeast,10106.13425,No
+30,Female,39.05,3,Smoker,Southeast,40932.4295,Yes
+41,Male,28.405,1,Non Smoker,Northwest,6664.68595,No
+29,Female,21.755,1,Smoker,Northeast,16657.71745,Yes
+18,Female,40.28,0,Non Smoker,Northeast,2217.6012,Yes
+41,Female,36.08,1,Non Smoker,Southeast,6781.3542,Yes
+35,Male,24.42,3,Smoker,Southeast,19361.9988,No
+53,Male,21.4,1,Non Smoker,Southwest,10065.413,No
+24,Female,30.1,3,Non Smoker,Southwest,4234.927,No
+48,Female,27.265,1,Non Smoker,Northeast,9447.25035,No
+59,Female,32.1,3,Non Smoker,Southwest,14007.222,No
+49,Female,34.77,1,Non Smoker,Northwest,9583.8933,Yes
+37,Female,38.39,0,Smoker,Southeast,40419.0191,Yes
+26,Male,23.7,2,Non Smoker,Southwest,3484.331,No
+23,Male,31.73,3,Smoker,Northeast,36189.1017,Yes
+29,Male,35.5,2,Smoker,Southwest,44585.45587,Yes
+45,Male,24.035,2,Non Smoker,Northeast,8604.48365,No
+27,Male,29.15,0,Smoker,Southeast,18246.4955,Yes
+53,Male,34.105,0,Smoker,Northeast,43254.41795,Yes
+31,Female,26.62,0,Non Smoker,Southeast,3757.8448,Yes
+50,Male,26.41,0,Non Smoker,Northwest,8827.2099,Yes
+50,Female,30.115,1,Non Smoker,Northwest,9910.35985,Yes
+34,Male,27,2,Non Smoker,Southwest,11737.84884,No
+19,Male,21.755,0,Non Smoker,Northwest,1627.28245,No
+47,Female,36,1,Non Smoker,Southwest,8556.907,Yes
+28,Male,30.875,0,Non Smoker,Northwest,3062.50825,Yes
+37,Female,26.4,0,Smoker,Southeast,19539.243,Yes
+21,Male,28.975,0,Non Smoker,Northwest,1906.35825,Yes
+64,Male,37.905,0,Non Smoker,Northwest,14210.53595,Yes
+58,Female,22.77,0,Non Smoker,Southeast,11833.7823,No
+24,Male,33.63,4,Non Smoker,Northeast,17128.42608,No
+31,Male,27.645,2,Non Smoker,Northeast,5031.26955,No
+39,Female,22.8,3,Non Smoker,Northeast,7985.815,No
+47,Female,27.83,0,Smoker,Southeast,23065.4207,Yes
+30,Male,37.43,3,Non Smoker,Northeast,5428.7277,No
+18,Male,38.17,0,Smoker,Southeast,36307.7983,Yes
+22,Female,34.58,2,Non Smoker,Northeast,3925.7582,No
+23,Male,35.2,1,Non Smoker,Southwest,2416.955,No
+33,Male,27.1,1,Smoker,Southwest,19040.876,Yes
+27,Male,26.03,0,Non Smoker,Northeast,3070.8087,Yes
+45,Female,25.175,2,Non Smoker,Northeast,9095.06825,Yes
+57,Female,31.825,0,Non Smoker,Northwest,11842.62375,Yes
+47,Male,32.3,1,Non Smoker,Southwest,8062.764,Yes
+42,Female,29,1,Non Smoker,Southwest,7050.642,No
+64,Female,39.7,0,Non Smoker,Southwest,14319.031,Yes
+38,Female,19.475,2,Non Smoker,Northwest,6933.24225,No
+61,Male,36.1,3,Non Smoker,Southwest,27941.28758,No
+53,Female,26.7,2,Non Smoker,Southwest,11150.78,Yes
+44,Female,36.48,0,Non Smoker,Northeast,12797.20962,Yes
+19,Female,28.88,0,Smoker,Northwest,17748.5062,Yes
+41,Male,34.2,2,Non Smoker,Northwest,7261.741,No
+51,Male,33.33,3,Non Smoker,Southeast,10560.4917,No
+40,Male,32.3,2,Non Smoker,Northwest,6986.697,No
+45,Male,39.805,0,Non Smoker,Northeast,7448.40395,Yes
+35,Male,34.32,3,Non Smoker,Southeast,5934.3798,No
+53,Male,28.88,0,Non Smoker,Northwest,9869.8102,Yes
+30,Male,24.4,3,Smoker,Southwest,18259.216,No
+18,Male,41.14,0,Non Smoker,Southeast,1146.7966,Yes
+51,Male,35.97,1,Non Smoker,Southeast,9386.1613,Yes
+50,Female,27.6,1,Smoker,Southwest,24520.264,Yes
+31,Female,29.26,1,Non Smoker,Southeast,4350.5144,No
+35,Female,27.7,3,Non Smoker,Southwest,6414.178,No
+60,Male,36.955,0,Non Smoker,Northeast,12741.16745,Yes
+21,Male,36.86,0,Non Smoker,Northwest,1917.3184,Yes
+29,Male,22.515,3,Non Smoker,Northeast,5209.57885,No
+62,Female,29.92,0,Non Smoker,Southeast,13457.9608,Yes
+39,Female,41.8,0,Non Smoker,Southeast,5662.225,Yes
+19,Male,27.6,0,Non Smoker,Southwest,1252.407,Yes
+22,Female,23.18,0,Non Smoker,Northeast,2731.9122,No
+53,Male,20.9,0,Smoker,Southeast,21195.818,Yes
+39,Female,31.92,2,Non Smoker,Northwest,7209.4918,No
+27,Male,28.5,0,Smoker,Northwest,18310.742,Yes
+30,Male,44.22,2,Non Smoker,Southeast,4266.1658,No
+30,Female,22.895,1,Non Smoker,Northeast,4719.52405,No
+58,Female,33.1,0,Non Smoker,Southwest,11848.141,Yes
+33,Male,24.795,0,Smoker,Northeast,17904.52705,Yes
+42,Female,26.18,1,Non Smoker,Southeast,7046.7222,No
+64,Female,35.97,0,Non Smoker,Southeast,14313.8463,Yes
+21,Male,22.3,1,Non Smoker,Southwest,2103.08,No
+18,Female,42.24,0,Smoker,Southeast,38792.6856,Yes
+23,Male,26.51,0,Non Smoker,Southeast,1815.8759,Yes
+45,Female,35.815,0,Non Smoker,Northwest,7731.85785,Yes
+40,Female,41.42,1,Non Smoker,Northwest,28476.73499,Yes
+19,Female,36.575,0,Non Smoker,Northwest,2136.88225,Yes
+18,Male,30.14,0,Non Smoker,Southeast,1131.5066,Yes
+25,Male,25.84,1,Non Smoker,Northeast,3309.7926,No
+46,Female,30.8,3,Non Smoker,Southwest,9414.92,No
+33,Female,42.94,3,Non Smoker,Northwest,6360.9936,No
+54,Male,21.01,2,Non Smoker,Southeast,11013.7119,No
+28,Male,22.515,2,Non Smoker,Northeast,4428.88785,No
+36,Male,34.43,2,Non Smoker,Southeast,5584.3057,No
+20,Female,31.46,0,Non Smoker,Southeast,1877.9294,Yes
+24,Female,24.225,0,Non Smoker,Northwest,2842.76075,No
+23,Male,37.1,3,Non Smoker,Southwest,3597.596,No
+47,Female,26.125,1,Smoker,Northeast,23401.30575,Yes
+33,Female,35.53,0,Smoker,Northwest,55135.40209,Yes
+45,Male,33.7,1,Non Smoker,Southwest,7445.918,Yes
+26,Male,17.67,0,Non Smoker,Northwest,2680.9493,No
+18,Female,31.13,0,Non Smoker,Southeast,1621.8827,Yes
+44,Female,29.81,2,Non Smoker,Southeast,8219.2039,Yes
+60,Male,24.32,0,Non Smoker,Northwest,12523.6048,No
+64,Female,31.825,2,Non Smoker,Northeast,16069.08475,No
+56,Male,31.79,2,Smoker,Southeast,43813.8661,Yes
+36,Male,28.025,1,Smoker,Northeast,20773.62775,Yes
+41,Male,30.78,3,Smoker,Northeast,39597.4072,Yes
+39,Male,21.85,1,Non Smoker,Northwest,6117.4945,No
+63,Male,33.1,0,Non Smoker,Southwest,13393.756,Yes
+36,Female,25.84,0,Non Smoker,Northwest,5266.3656,No
+28,Female,23.845,2,Non Smoker,Northwest,4719.73655,No
+58,Male,34.39,0,Non Smoker,Northwest,11743.9341,Yes
+36,Male,33.82,1,Non Smoker,Northwest,5377.4578,Yes
+42,Male,35.97,2,Non Smoker,Southeast,7160.3303,Yes
+36,Male,31.5,0,Non Smoker,Southwest,4402.233,Yes
+56,Female,28.31,0,Non Smoker,Northeast,11657.7189,Yes
+35,Female,23.465,2,Non Smoker,Northeast,6402.29135,No
+59,Female,31.35,0,Non Smoker,Northwest,12622.1795,Yes
+21,Male,31.1,0,Non Smoker,Southwest,1526.312,Yes
+59,Male,24.7,0,Non Smoker,Northeast,12323.936,No
+23,Female,32.78,2,Smoker,Southeast,36021.0112,Yes
+57,Female,29.81,0,Smoker,Southeast,27533.9129,Yes
+53,Male,30.495,0,Non Smoker,Northeast,10072.05505,Yes
+60,Female,32.45,0,Smoker,Southeast,45008.9555,Yes
+51,Female,34.2,1,Non Smoker,Southwest,9872.701,Yes
+23,Male,50.38,1,Non Smoker,Southeast,2438.0552,Yes
+27,Female,24.1,0,Non Smoker,Southwest,2974.126,No
+55,Male,32.775,0,Non Smoker,Northwest,10601.63225,Yes
+37,Female,30.78,0,Smoker,Northeast,37270.1512,Yes
+61,Male,32.3,2,Non Smoker,Northwest,14119.62,No
+46,Female,35.53,0,Smoker,Northeast,42111.6647,Yes
+53,Female,23.75,2,Non Smoker,Northeast,11729.6795,No
+49,Female,23.845,3,Smoker,Northeast,24106.91255,Yes
+20,Female,29.6,0,Non Smoker,Southwest,1875.344,Yes
+48,Female,33.11,0,Smoker,Southeast,40974.1649,Yes
+25,Male,24.13,0,Smoker,Northwest,15817.9857,Yes
+25,Female,32.23,1,Non Smoker,Southeast,18218.16139,Yes
+57,Male,28.1,0,Non Smoker,Southwest,10965.446,Yes
+37,Female,47.6,2,Smoker,Southwest,46113.511,Yes
+38,Female,28,3,Non Smoker,Southwest,7151.092,No
+55,Female,33.535,2,Non Smoker,Northwest,12269.68865,No
+36,Female,19.855,0,Non Smoker,Northeast,5458.04645,No
+51,Male,25.4,0,Non Smoker,Southwest,8782.469,No
+40,Male,29.9,2,Non Smoker,Southwest,6600.361,No
+18,Male,37.29,0,Non Smoker,Southeast,1141.4451,Yes
+57,Male,43.7,1,Non Smoker,Southwest,11576.13,Yes
+61,Male,23.655,0,Non Smoker,Northeast,13129.60345,No
+25,Female,24.3,3,Non Smoker,Southwest,4391.652,No
+50,Male,36.2,0,Non Smoker,Southwest,8457.818,Yes
+26,Female,29.48,1,Non Smoker,Southeast,3392.3652,No
+42,Male,24.86,0,Non Smoker,Southeast,5966.8874,No
+43,Male,30.1,1,Non Smoker,Southwest,6849.026,Yes
+44,Male,21.85,3,Non Smoker,Northeast,8891.1395,No
+23,Female,28.12,0,Non Smoker,Northwest,2690.1138,Yes
+49,Female,27.1,1,Non Smoker,Southwest,26140.3603,No
+33,Male,33.44,5,Non Smoker,Southeast,6653.7886,No
+41,Male,28.8,1,Non Smoker,Southwest,6282.235,No
+37,Female,29.5,2,Non Smoker,Southwest,6311.952,No
+22,Male,34.8,3,Non Smoker,Southwest,3443.064,No
+23,Male,27.36,1,Non Smoker,Northwest,2789.0574,No
+21,Female,22.135,0,Non Smoker,Northeast,2585.85065,No
+51,Female,37.05,3,Smoker,Northeast,46255.1125,Yes
+25,Male,26.695,4,Non Smoker,Northwest,4877.98105,No
+32,Male,28.93,1,Smoker,Southeast,19719.6947,Yes
+57,Male,28.975,0,Smoker,Northeast,27218.43725,Yes
+36,Female,30.02,0,Non Smoker,Northwest,5272.1758,Yes
+22,Male,39.5,0,Non Smoker,Southwest,1682.597,Yes
+57,Male,33.63,1,Non Smoker,Northwest,11945.1327,Yes
+64,Female,26.885,0,Smoker,Northwest,29330.98315,Yes
+36,Female,29.04,4,Non Smoker,Southeast,7243.8136,No
+54,Male,24.035,0,Non Smoker,Northeast,10422.91665,No
+47,Male,38.94,2,Smoker,Southeast,44202.6536,Yes
+62,Male,32.11,0,Non Smoker,Northeast,13555.0049,Yes
+61,Female,44,0,Non Smoker,Southwest,13063.883,Yes
+43,Female,20.045,2,Smoker,Northeast,19798.05455,Yes
+19,Male,25.555,1,Non Smoker,Northwest,2221.56445,No
+18,Female,40.26,0,Non Smoker,Southeast,1634.5734,Yes
+19,Female,22.515,0,Non Smoker,Northwest,2117.33885,No
+49,Male,22.515,0,Non Smoker,Northeast,8688.85885,No
+60,Male,40.92,0,Smoker,Southeast,48673.5588,Yes
+26,Male,27.265,3,Non Smoker,Northeast,4661.28635,No
+49,Male,36.85,0,Non Smoker,Southeast,8125.7845,Yes
+60,Female,35.1,0,Non Smoker,Southwest,12644.589,Yes
+26,Female,29.355,2,Non Smoker,Northeast,4564.19145,No
+27,Male,32.585,3,Non Smoker,Northeast,4846.92015,No
+44,Female,32.34,1,Non Smoker,Southeast,7633.7206,Yes
+63,Male,39.8,3,Non Smoker,Southwest,15170.069,No
+32,Female,24.6,0,Smoker,Southwest,17496.306,Yes
+22,Male,28.31,1,Non Smoker,Northwest,2639.0429,No
+18,Male,31.73,0,Smoker,Northeast,33732.6867,Yes
+59,Female,26.695,3,Non Smoker,Northwest,14382.70905,Yes
+44,Female,27.5,1,Non Smoker,Southwest,7626.993,No
+33,Male,24.605,2,Non Smoker,Northwest,5257.50795,No
+24,Female,33.99,0,Non Smoker,Southeast,2473.3341,Yes
+43,Female,26.885,0,Smoker,Northwest,21774.32215,Yes
+45,Male,22.895,0,Smoker,Northeast,35069.37452,Yes
+61,Female,28.2,0,Non Smoker,Southwest,13041.921,Yes
+35,Female,34.21,1,Non Smoker,Southeast,5245.2269,Yes
+62,Female,25,0,Non Smoker,Southwest,13451.122,No
+62,Female,33.2,0,Non Smoker,Southwest,13462.52,Yes
+38,Male,31,1,Non Smoker,Southwest,5488.262,No
+34,Male,35.815,0,Non Smoker,Northwest,4320.41085,Yes
+43,Male,23.2,0,Non Smoker,Southwest,6250.435,No
+50,Male,32.11,2,Non Smoker,Northeast,25333.33284,No
+19,Female,23.4,2,Non Smoker,Southwest,2913.569,No
+57,Female,20.1,1,Non Smoker,Southwest,12032.326,No
+62,Female,39.16,0,Non Smoker,Southeast,13470.8044,Yes
+41,Male,34.21,1,Non Smoker,Southeast,6289.7549,Yes
+26,Male,46.53,1,Non Smoker,Southeast,2927.0647,Yes
+39,Female,32.5,1,Non Smoker,Southwest,6238.298,Yes
+46,Male,25.8,5,Non Smoker,Southwest,10096.97,Yes
+45,Female,35.3,0,Non Smoker,Southwest,7348.142,Yes
+32,Male,37.18,2,Non Smoker,Southeast,4673.3922,No
+59,Female,27.5,0,Non Smoker,Southwest,12233.828,Yes
+44,Male,29.735,2,Non Smoker,Northeast,32108.66282,Yes
+39,Female,24.225,5,Non Smoker,Northwest,8965.79575,No
+18,Male,26.18,2,Non Smoker,Southeast,2304.0022,No
+53,Male,29.48,0,Non Smoker,Southeast,9487.6442,Yes
+18,Male,23.21,0,Non Smoker,Southeast,1121.8739,No
+50,Female,46.09,1,Non Smoker,Southeast,9549.5651,Yes
+18,Female,40.185,0,Non Smoker,Northeast,2217.46915,Yes
+19,Male,22.61,0,Non Smoker,Northwest,1628.4709,No
+62,Male,39.93,0,Non Smoker,Southeast,12982.8747,Yes
+56,Female,35.8,1,Non Smoker,Southwest,11674.13,Yes
+42,Male,35.8,2,Non Smoker,Southwest,7160.094,Yes
+37,Male,34.2,1,Smoker,Northeast,39047.285,Yes
+42,Male,31.255,0,Non Smoker,Northwest,6358.77645,Yes
+25,Male,29.7,3,Smoker,Southwest,19933.458,No
+57,Male,18.335,0,Non Smoker,Northeast,11534.87265,No
+51,Male,42.9,2,Smoker,Southeast,47462.894,Yes
+30,Female,28.405,1,Non Smoker,Northwest,4527.18295,No
+44,Male,30.2,2,Smoker,Southwest,38998.546,Yes
+34,Male,27.835,1,Smoker,Northwest,20009.63365,Yes
+31,Male,39.49,1,Non Smoker,Southeast,3875.7341,No
+54,Male,30.8,1,Smoker,Southeast,41999.52,Yes
+24,Male,26.79,1,Non Smoker,Northwest,12609.88702,No
+43,Male,34.96,1,Smoker,Northeast,41034.2214,Yes
+48,Male,36.67,1,Non Smoker,Northwest,28468.91901,Yes
+19,Female,39.615,1,Non Smoker,Northwest,2730.10785,No
+29,Female,25.9,0,Non Smoker,Southwest,3353.284,No
+63,Female,35.2,1,Non Smoker,Southeast,14474.675,Yes
+46,Male,24.795,3,Non Smoker,Northeast,9500.57305,No
+52,Male,36.765,2,Non Smoker,Northwest,26467.09737,Yes
+35,Male,27.1,1,Non Smoker,Southwest,4746.344,No
+51,Male,24.795,2,Smoker,Northwest,23967.38305,Yes
+44,Male,25.365,1,Non Smoker,Northwest,7518.02535,No
+21,Male,25.745,2,Non Smoker,Northeast,3279.86855,No
+39,Female,34.32,5,Non Smoker,Southeast,8596.8278,No
+50,Female,28.16,3,Non Smoker,Southeast,10702.6424,Yes
+34,Female,23.56,0,Non Smoker,Northeast,4992.3764,No
+22,Female,20.235,0,Non Smoker,Northwest,2527.81865,No
+19,Female,40.5,0,Non Smoker,Southwest,1759.338,Yes
+26,Male,35.42,0,Non Smoker,Southeast,2322.6218,Yes
+29,Male,22.895,0,Smoker,Northeast,16138.76205,Yes
+48,Male,40.15,0,Non Smoker,Southeast,7804.1605,Yes
+26,Male,29.15,1,Non Smoker,Southeast,2902.9065,No
+45,Female,39.995,3,Non Smoker,Northeast,9704.66805,No
+36,Female,29.92,0,Non Smoker,Southeast,4889.0368,Yes
+54,Male,25.46,1,Non Smoker,Northeast,25517.11363,No
+34,Male,21.375,0,Non Smoker,Northeast,4500.33925,No
+31,Male,25.9,3,Smoker,Southwest,19199.944,No
+27,Female,30.59,1,Non Smoker,Northeast,16796.41194,No
+20,Male,30.115,5,Non Smoker,Northeast,4915.05985,No
+44,Female,25.8,1,Non Smoker,Southwest,7624.63,No
+43,Male,30.115,3,Non Smoker,Northwest,8410.04685,No
+45,Female,27.645,1,Non Smoker,Northwest,28340.18885,No
+34,Male,34.675,0,Non Smoker,Northeast,4518.82625,Yes
+24,Female,20.52,0,Smoker,Northeast,14571.8908,Yes
+26,Female,19.8,1,Non Smoker,Southwest,3378.91,No
+38,Female,27.835,2,Non Smoker,Northeast,7144.86265,No
+50,Female,31.6,2,Non Smoker,Southwest,10118.424,No
+38,Male,28.27,1,Non Smoker,Southeast,5484.4673,No
+27,Female,20.045,3,Smoker,Northwest,16420.49455,No
+39,Female,23.275,3,Non Smoker,Northeast,7986.47525,No
+39,Female,34.1,3,Non Smoker,Southwest,7418.522,No
+63,Female,36.85,0,Non Smoker,Southeast,13887.9685,Yes
+33,Female,36.29,3,Non Smoker,Northeast,6551.7501,No
+36,Female,26.885,0,Non Smoker,Northwest,5267.81815,Yes
+30,Male,22.99,2,Smoker,Northwest,17361.7661,No
+24,Male,32.7,0,Smoker,Southwest,34472.841,Yes
+24,Male,25.8,0,Non Smoker,Southwest,1972.95,No
+48,Male,29.6,0,Non Smoker,Southwest,21232.18226,Yes
+47,Male,19.19,1,Non Smoker,Northeast,8627.5411,No
+29,Male,31.73,2,Non Smoker,Northwest,4433.3877,No
+28,Male,29.26,2,Non Smoker,Northeast,4438.2634,No
+47,Male,28.215,3,Smoker,Northwest,24915.22085,Yes
+25,Male,24.985,2,Non Smoker,Northeast,23241.47453,No
+51,Male,27.74,1,Non Smoker,Northeast,9957.7216,No
+48,Female,22.8,0,Non Smoker,Southwest,8269.044,No
+43,Male,20.13,2,Smoker,Southeast,18767.7377,Yes
+61,Female,33.33,4,Non Smoker,Southeast,36580.28216,No
+48,Male,32.3,1,Non Smoker,Northwest,8765.249,Yes
+38,Female,27.6,0,Non Smoker,Southwest,5383.536,Yes
+59,Male,25.46,0,Non Smoker,Northwest,12124.9924,No
+19,Female,24.605,1,Non Smoker,Northwest,2709.24395,No
+26,Female,34.2,2,Non Smoker,Southwest,3987.926,No
+54,Female,35.815,3,Non Smoker,Northwest,12495.29085,No
+21,Female,32.68,2,Non Smoker,Northwest,26018.95052,No
+51,Male,37,0,Non Smoker,Southwest,8798.593,Yes
+22,Female,31.02,3,Smoker,Southeast,35595.5898,Yes
+47,Male,36.08,1,Smoker,Southeast,42211.1382,Yes
+18,Male,23.32,1,Non Smoker,Southeast,1711.0268,No
+47,Female,45.32,1,Non Smoker,Southeast,8569.8618,Yes
+21,Female,34.6,0,Non Smoker,Southwest,2020.177,Yes
+19,Male,26.03,1,Smoker,Northwest,16450.8947,Yes
+23,Male,18.715,0,Non Smoker,Northwest,21595.38229,No
+54,Male,31.6,0,Non Smoker,Southwest,9850.432,Yes
+37,Female,17.29,2,Non Smoker,Northeast,6877.9801,Yes
+46,Female,23.655,1,Smoker,Northwest,21677.28345,Yes
+55,Female,35.2,0,Smoker,Southeast,44423.803,Yes
+30,Female,27.93,0,Non Smoker,Northeast,4137.5227,Yes
+18,Male,21.565,0,Smoker,Northeast,13747.87235,Yes
+61,Male,38.38,0,Non Smoker,Northwest,12950.0712,Yes
+54,Female,23,3,Non Smoker,Southwest,12094.478,No
+22,Male,37.07,2,Smoker,Southeast,37484.4493,Yes
+45,Female,30.495,1,Smoker,Northwest,39725.51805,Yes
+22,Male,28.88,0,Non Smoker,Northeast,2250.8352,Yes
+19,Male,27.265,2,Non Smoker,Northwest,22493.65964,No
+35,Female,28.025,0,Smoker,Northwest,20234.85475,Yes
+18,Male,23.085,0,Non Smoker,Northeast,1704.70015,No
+20,Male,30.685,0,Smoker,Northeast,33475.81715,Yes
+28,Female,25.8,0,Non Smoker,Southwest,3161.454,No
+55,Male,35.245,1,Non Smoker,Northeast,11394.06555,Yes
+43,Female,24.7,2,Smoker,Northwest,21880.82,Yes
+43,Female,25.08,0,Non Smoker,Northeast,7325.0482,No
+22,Male,52.58,1,Smoker,Southeast,44501.3982,Yes
+25,Female,22.515,1,Non Smoker,Northwest,3594.17085,No
+49,Male,30.9,0,Smoker,Southwest,39727.614,Yes
+44,Female,36.955,1,Non Smoker,Northwest,8023.13545,Yes
+64,Male,26.41,0,Non Smoker,Northeast,14394.5579,Yes
+49,Male,29.83,1,Non Smoker,Northeast,9288.0267,No
+47,Male,29.8,3,Smoker,Southwest,25309.489,Yes
+27,Female,21.47,0,Non Smoker,Northwest,3353.4703,No
+55,Male,27.645,0,Non Smoker,Northwest,10594.50155,Yes
+48,Female,28.9,0,Non Smoker,Southwest,8277.523,Yes
+45,Female,31.79,0,Non Smoker,Southeast,17929.30337,Yes
+24,Female,39.49,0,Non Smoker,Southeast,2480.9791,Yes
+32,Male,33.82,1,Non Smoker,Northwest,4462.7218,Yes
+24,Male,32.01,0,Non Smoker,Southeast,1981.5819,Yes
+57,Male,27.94,1,Non Smoker,Southeast,11554.2236,No
+59,Male,41.14,1,Smoker,Southeast,48970.2476,Yes
+36,Male,28.595,3,Non Smoker,Northwest,6548.19505,No
+29,Female,25.6,4,Non Smoker,Southwest,5708.867,No
+42,Female,25.3,1,Non Smoker,Southwest,7045.499,No
+48,Male,37.29,2,Non Smoker,Southeast,8978.1851,Yes
+39,Male,42.655,0,Non Smoker,Northeast,5757.41345,Yes
+63,Male,21.66,1,Non Smoker,Northwest,14349.8544,No
+54,Female,31.9,1,Non Smoker,Southeast,10928.849,Yes
+37,Male,37.07,1,Smoker,Southeast,39871.7043,Yes
+63,Male,31.445,0,Non Smoker,Northeast,13974.45555,Yes
+21,Male,31.255,0,Non Smoker,Northwest,1909.52745,Yes
+54,Female,28.88,2,Non Smoker,Northeast,12096.6512,Yes
+60,Female,18.335,0,Non Smoker,Northeast,13204.28565,No
+32,Female,29.59,1,Non Smoker,Southeast,4562.8421,No
+47,Female,32,1,Non Smoker,Southwest,8551.347,Yes
+21,Male,26.03,0,Non Smoker,Northeast,2102.2647,Yes
+28,Male,31.68,0,Smoker,Southeast,34672.1472,Yes
+63,Male,33.66,3,Non Smoker,Southeast,15161.5344,No
+18,Male,21.78,2,Non Smoker,Southeast,11884.04858,No
+32,Male,27.835,1,Non Smoker,Northwest,4454.40265,No
+38,Male,19.95,1,Non Smoker,Northwest,5855.9025,No
+32,Male,31.5,1,Non Smoker,Southwest,4076.497,Yes
+62,Female,30.495,2,Non Smoker,Northwest,15019.76005,No
+39,Female,18.3,5,Smoker,Southwest,19023.26,No
+55,Male,28.975,0,Non Smoker,Northeast,10796.35025,Yes
+57,Male,31.54,0,Non Smoker,Northwest,11353.2276,Yes
+52,Male,47.74,1,Non Smoker,Southeast,9748.9106,Yes
+56,Male,22.1,0,Non Smoker,Southwest,10577.087,No
+47,Male,36.19,0,Smoker,Southeast,41676.0811,Yes
+55,Female,29.83,0,Non Smoker,Northeast,11286.5387,Yes
+23,Male,32.7,3,Non Smoker,Southwest,3591.48,No
+22,Female,30.4,0,Smoker,Northwest,33907.548,Yes
+50,Female,33.7,4,Non Smoker,Southwest,11299.343,No
+18,Female,31.35,4,Non Smoker,Northeast,4561.1885,No
+51,Female,34.96,2,Smoker,Northeast,44641.1974,Yes
+22,Male,33.77,0,Non Smoker,Southeast,1674.6323,Yes
+52,Female,30.875,0,Non Smoker,Northeast,23045.56616,Yes
+25,Female,33.99,1,Non Smoker,Southeast,3227.1211,Yes
+33,Female,19.095,2,Smoker,Northeast,16776.30405,No
+53,Male,28.6,3,Non Smoker,Southwest,11253.421,Yes
+29,Male,38.94,1,Non Smoker,Southeast,3471.4096,No
+58,Male,36.08,0,Non Smoker,Southeast,11363.2832,Yes
+37,Male,29.8,0,Non Smoker,Southwest,20420.60465,Yes
+54,Female,31.24,0,Non Smoker,Southeast,10338.9316,Yes
+49,Female,29.925,0,Non Smoker,Northwest,8988.15875,Yes
+50,Female,26.22,2,Non Smoker,Northwest,10493.9458,Yes
+26,Male,30,1,Non Smoker,Southwest,2904.088,No
+45,Male,20.35,3,Non Smoker,Southeast,8605.3615,No
+54,Female,32.3,1,Non Smoker,Northeast,11512.405,Yes
+38,Male,38.39,3,Smoker,Southeast,41949.2441,Yes
+48,Female,25.85,3,Smoker,Southeast,24180.9335,Yes
+28,Female,26.315,3,Non Smoker,Northwest,5312.16985,No
+23,Male,24.51,0,Non Smoker,Northeast,2396.0959,No
+55,Male,32.67,1,Non Smoker,Southeast,10807.4863,Yes
+41,Male,29.64,5,Non Smoker,Northeast,9222.4026,Yes
+25,Male,33.33,2,Smoker,Southeast,36124.5737,Yes
+33,Male,35.75,1,Smoker,Southeast,38282.7495,Yes
+30,Female,19.95,3,Non Smoker,Northwest,5693.4305,No
+23,Female,31.4,0,Smoker,Southwest,34166.273,Yes
+46,Male,38.17,2,Non Smoker,Southeast,8347.1643,Yes
+53,Female,36.86,3,Smoker,Northwest,46661.4424,Yes
+27,Female,32.395,1,Non Smoker,Northeast,18903.49141,Yes
+23,Female,42.75,1,Smoker,Northeast,40904.1995,Yes
+63,Female,25.08,0,Non Smoker,Northwest,14254.6082,No
+55,Male,29.9,0,Non Smoker,Southwest,10214.636,Yes
+35,Female,35.86,2,Non Smoker,Southeast,5836.5204,No
+34,Male,32.8,1,Non Smoker,Southwest,14358.36437,Yes
+19,Female,18.6,0,Non Smoker,Southwest,1728.897,No
+39,Female,23.87,5,Non Smoker,Southeast,8582.3023,No
+27,Male,45.9,2,Non Smoker,Southwest,3693.428,Yes
+57,Male,40.28,0,Non Smoker,Northeast,20709.02034,Yes
+52,Female,18.335,0,Non Smoker,Northwest,9991.03765,No
+28,Male,33.82,0,Non Smoker,Northwest,19673.33573,Yes
+50,Female,28.12,3,Non Smoker,Northwest,11085.5868,Yes
+44,Female,25,1,Non Smoker,Southwest,7623.518,No
+26,Female,22.23,0,Non Smoker,Northwest,3176.2877,No
+33,Male,30.25,0,Non Smoker,Southeast,3704.3545,Yes
+19,Female,32.49,0,Smoker,Northwest,36898.73308,Yes
+50,Male,37.07,1,Non Smoker,Southeast,9048.0273,Yes
+41,Female,32.6,3,Non Smoker,Southwest,7954.517,No
+52,Female,24.86,0,Non Smoker,Southeast,27117.99378,No
+39,Male,32.34,2,Non Smoker,Southeast,6338.0756,No
+50,Male,32.3,2,Non Smoker,Southwest,9630.397,No
+52,Male,32.775,3,Non Smoker,Northwest,11289.10925,No
+60,Male,32.8,0,Smoker,Southwest,52590.82939,Yes
+20,Female,31.92,0,Non Smoker,Northwest,2261.5688,Yes
+55,Male,21.5,1,Non Smoker,Southwest,10791.96,No
+42,Male,34.1,0,Non Smoker,Southwest,5979.731,Yes
+18,Female,30.305,0,Non Smoker,Northeast,2203.73595,Yes
+58,Female,36.48,0,Non Smoker,Northwest,12235.8392,Yes
+43,Female,32.56,3,Smoker,Southeast,40941.2854,Yes
+35,Female,35.815,1,Non Smoker,Northwest,5630.45785,No
+48,Female,27.93,4,Non Smoker,Northwest,11015.1747,Yes
+36,Female,22.135,3,Non Smoker,Northeast,7228.21565,No
+19,Male,44.88,0,Smoker,Southeast,39722.7462,Yes
+23,Female,23.18,2,Non Smoker,Northwest,14426.07385,No
+20,Female,30.59,0,Non Smoker,Northeast,2459.7201,Yes
+32,Female,41.1,0,Non Smoker,Southwest,3989.841,Yes
+43,Female,34.58,1,Non Smoker,Northwest,7727.2532,Yes
+34,Male,42.13,2,Non Smoker,Southeast,5124.1887,No
+30,Male,38.83,1,Non Smoker,Southeast,18963.17192,No
+18,Female,28.215,0,Non Smoker,Northeast,2200.83085,Yes
+41,Female,28.31,1,Non Smoker,Northwest,7153.5539,No
+35,Female,26.125,0,Non Smoker,Northeast,5227.98875,Yes
+57,Male,40.37,0,Non Smoker,Southeast,10982.5013,Yes
+29,Female,24.6,2,Non Smoker,Southwest,4529.477,No
+32,Male,35.2,2,Non Smoker,Southwest,4670.64,No
+37,Female,34.105,1,Non Smoker,Northwest,6112.35295,Yes
+18,Male,27.36,1,Smoker,Northeast,17178.6824,Yes
+43,Female,26.7,2,Smoker,Southwest,22478.6,No
+56,Female,41.91,0,Non Smoker,Southeast,11093.6229,Yes
+38,Male,29.26,2,Non Smoker,Northwest,6457.8434,No
+29,Male,32.11,2,Non Smoker,Northwest,4433.9159,No
+22,Female,27.1,0,Non Smoker,Southwest,2154.361,Yes
+52,Female,24.13,1,Smoker,Northwest,23887.6627,Yes
+40,Female,27.4,1,Non Smoker,Southwest,6496.886,No
+23,Female,34.865,0,Non Smoker,Northeast,2899.48935,Yes
+31,Male,29.81,0,Smoker,Southeast,19350.3689,Yes
+42,Female,41.325,1,Non Smoker,Northeast,7650.77375,Yes
+24,Female,29.925,0,Non Smoker,Northwest,2850.68375,Yes
+25,Female,30.3,0,Non Smoker,Southwest,2632.992,Yes
+48,Female,27.36,1,Non Smoker,Northeast,9447.3824,No
+23,Female,28.49,1,Smoker,Southeast,18328.2381,Yes
+45,Male,23.56,2,Non Smoker,Northeast,8603.8234,No
+20,Male,35.625,3,Smoker,Northwest,37465.34375,Yes
+62,Female,32.68,0,Non Smoker,Northwest,13844.7972,Yes
+43,Female,25.27,1,Smoker,Northeast,21771.3423,Yes
+23,Female,28,0,Non Smoker,Southwest,13126.67745,Yes
+31,Female,32.775,2,Non Smoker,Northwest,5327.40025,No
+41,Female,21.755,1,Non Smoker,Northeast,13725.47184,No
+58,Female,32.395,1,Non Smoker,Northeast,13019.16105,Yes
+48,Female,36.575,0,Non Smoker,Northwest,8671.19125,Yes
+31,Female,21.755,0,Non Smoker,Northwest,4134.08245,No
+19,Female,27.93,3,Non Smoker,Northwest,18838.70366,No
+19,Female,30.02,0,Smoker,Northwest,33307.5508,Yes
+41,Male,33.55,0,Non Smoker,Southeast,5699.8375,Yes
+40,Male,29.355,1,Non Smoker,Northwest,6393.60345,No
+31,Female,25.8,2,Non Smoker,Southwest,4934.705,No
+37,Male,24.32,2,Non Smoker,Northwest,6198.7518,No
+46,Male,40.375,2,Non Smoker,Northwest,8733.22925,No
+22,Male,32.11,0,Non Smoker,Northwest,2055.3249,Yes
+51,Male,32.3,1,Non Smoker,Northeast,9964.06,Yes
+18,Female,27.28,3,Smoker,Southeast,18223.4512,No
+35,Male,17.86,1,Non Smoker,Northwest,5116.5004,No
+59,Female,34.8,2,Non Smoker,Southwest,36910.60803,No
+36,Male,33.4,2,Smoker,Southwest,38415.474,Yes
+37,Female,25.555,1,Smoker,Northeast,20296.86345,Yes
+59,Male,37.1,1,Non Smoker,Southwest,12347.172,Yes
+36,Male,30.875,1,Non Smoker,Northwest,5373.36425,No
+39,Male,34.1,2,Non Smoker,Southeast,23563.01618,No
+18,Male,21.47,0,Non Smoker,Northeast,1702.4553,No
+52,Female,33.3,2,Non Smoker,Southwest,10806.839,No
+27,Female,31.255,1,Non Smoker,Northwest,3956.07145,Yes
+18,Male,39.14,0,Non Smoker,Northeast,12890.05765,Yes
+40,Male,25.08,0,Non Smoker,Southeast,5415.6612,No
+29,Male,37.29,2,Non Smoker,Southeast,4058.1161,No
+46,Female,34.6,1,Smoker,Southwest,41661.602,Yes
+38,Female,30.21,3,Non Smoker,Northwest,7537.1639,No
+30,Female,21.945,1,Non Smoker,Northeast,4718.20355,No
+40,Male,24.97,2,Non Smoker,Southeast,6593.5083,No
+50,Male,25.3,0,Non Smoker,Southeast,8442.667,No
+20,Female,24.42,0,Smoker,Southeast,26125.67477,Yes
+41,Male,23.94,1,Non Smoker,Northeast,6858.4796,No
+33,Female,39.82,1,Non Smoker,Southeast,4795.6568,No
+38,Male,16.815,2,Non Smoker,Northeast,6640.54485,Yes
+42,Male,37.18,2,Non Smoker,Southeast,7162.0122,Yes
+56,Male,34.43,0,Non Smoker,Southeast,10594.2257,Yes
+58,Male,30.305,0,Non Smoker,Northeast,11938.25595,Yes
+52,Male,34.485,3,Smoker,Northwest,60021.39897,Yes
+20,Female,21.8,0,Smoker,Southwest,20167.33603,Yes
+54,Female,24.605,3,Non Smoker,Northwest,12479.70895,No
+58,Male,23.3,0,Non Smoker,Southwest,11345.519,No
+45,Female,27.83,2,Non Smoker,Southeast,8515.7587,Yes
+26,Male,31.065,0,Non Smoker,Northwest,2699.56835,Yes
+63,Female,21.66,0,Non Smoker,Northeast,14449.8544,No
+58,Female,28.215,0,Non Smoker,Northwest,12224.35085,Yes
+37,Male,22.705,3,Non Smoker,Northeast,6985.50695,No
+25,Female,42.13,1,Non Smoker,Southeast,3238.4357,Yes
+52,Male,41.8,2,Smoker,Southeast,47269.854,Yes
+64,Male,36.96,2,Smoker,Southeast,49577.6624,Yes
+22,Female,21.28,3,Non Smoker,Northwest,4296.2712,No
+28,Female,33.11,0,Non Smoker,Southeast,3171.6149,Yes
+18,Male,33.33,0,Non Smoker,Southeast,1135.9407,Yes
+28,Male,24.3,5,Non Smoker,Southwest,5615.369,No
+45,Female,25.7,3,Non Smoker,Southwest,9101.798,Yes
+33,Male,29.4,4,Non Smoker,Southwest,6059.173,No
+18,Female,39.82,0,Non Smoker,Southeast,1633.9618,Yes
+32,Male,33.63,1,Smoker,Northeast,37607.5277,Yes
+24,Male,29.83,0,Smoker,Northeast,18648.4217,Yes
+19,Male,19.8,0,Non Smoker,Southwest,1241.565,No
+20,Male,27.3,0,Smoker,Southwest,16232.847,Yes
+40,Female,29.3,4,Non Smoker,Southwest,15828.82173,No
+34,Female,27.72,0,Non Smoker,Southeast,4415.1588,Yes
+42,Female,37.9,0,Non Smoker,Southwest,6474.013,Yes
+51,Female,36.385,3,Non Smoker,Northwest,11436.73815,No
+54,Female,27.645,1,Non Smoker,Northwest,11305.93455,No
+55,Male,37.715,3,Non Smoker,Northwest,30063.58055,No
+52,Female,23.18,0,Non Smoker,Northeast,10197.7722,No
+32,Female,20.52,0,Non Smoker,Northeast,4544.2348,No
+28,Male,37.1,1,Non Smoker,Southwest,3277.161,No
+41,Female,28.05,1,Non Smoker,Southeast,6770.1925,No
+43,Female,29.9,1,Non Smoker,Southwest,7337.748,No
+49,Female,33.345,2,Non Smoker,Northeast,10370.91255,No
+64,Male,23.76,0,Smoker,Southeast,26926.5144,Yes
+55,Female,30.5,0,Non Smoker,Southwest,10704.47,Yes
+24,Male,31.065,0,Smoker,Northeast,34254.05335,Yes
+20,Female,33.3,0,Non Smoker,Southwest,1880.487,Yes
+45,Male,27.5,3,Non Smoker,Southwest,8615.3,Yes
+26,Male,33.915,1,Non Smoker,Northwest,3292.52985,Yes
+25,Female,34.485,0,Non Smoker,Northwest,3021.80915,Yes
+43,Male,25.52,5,Non Smoker,Southeast,14478.33015,Yes
+35,Male,27.61,1,Non Smoker,Southeast,4747.0529,No
+26,Male,27.06,0,Smoker,Southeast,17043.3414,Yes
+57,Male,23.7,0,Non Smoker,Southwest,10959.33,No
+22,Female,30.4,0,Non Smoker,Northeast,2741.948,Yes
+32,Female,29.735,0,Non Smoker,Northwest,4357.04365,Yes
+39,Male,29.925,1,Smoker,Northeast,22462.04375,Yes
+25,Female,26.79,2,Non Smoker,Northwest,4189.1131,No
+48,Female,33.33,0,Non Smoker,Southeast,8283.6807,Yes
+47,Female,27.645,2,Smoker,Northwest,24535.69855,Yes
+18,Female,21.66,0,Smoker,Northeast,14283.4594,Yes
+18,Male,30.03,1,Non Smoker,Southeast,1720.3537,No
+61,Male,36.3,1,Smoker,Southwest,47403.88,Yes
+47,Female,24.32,0,Non Smoker,Northeast,8534.6718,No
+28,Female,17.29,0,Non Smoker,Northeast,3732.6251,Yes
+36,Female,25.9,1,Non Smoker,Southwest,5472.449,No
+20,Male,39.4,2,Smoker,Southwest,38344.566,Yes
+44,Male,34.32,1,Non Smoker,Southeast,7147.4728,Yes
+38,Female,19.95,2,Non Smoker,Northeast,7133.9025,No
+19,Male,34.9,0,Smoker,Southwest,34828.654,Yes
+21,Male,23.21,0,Non Smoker,Southeast,1515.3449,No
+46,Male,25.745,3,Non Smoker,Northwest,9301.89355,Yes
+58,Male,25.175,0,Non Smoker,Northeast,11931.12525,No
+20,Male,22,1,Non Smoker,Southwest,1964.78,No
+18,Male,26.125,0,Non Smoker,Northeast,1708.92575,Yes
+28,Female,26.51,2,Non Smoker,Southeast,4340.4409,No
+33,Male,27.455,2,Non Smoker,Northwest,5261.46945,No
+19,Female,25.745,1,Non Smoker,Northwest,2710.82855,No
+45,Male,30.36,0,Smoker,Southeast,62592.87309,Yes
+62,Male,30.875,3,Smoker,Northwest,46718.16325,Yes
+25,Female,20.8,1,Non Smoker,Southwest,3208.787,No
+43,Male,27.8,0,Smoker,Southwest,37829.7242,Yes
+42,Male,24.605,2,Smoker,Northeast,21259.37795,Yes
+24,Female,27.72,0,Non Smoker,Southeast,2464.6188,Yes
+29,Female,21.85,0,Smoker,Northeast,16115.3045,Yes
+32,Male,28.12,4,Smoker,Northwest,21472.4788,No
+25,Female,30.2,0,Smoker,Southwest,33900.653,Yes
+41,Male,32.2,2,Non Smoker,Southwest,6875.961,No
+42,Male,26.315,1,Non Smoker,Northwest,6940.90985,No
+33,Female,26.695,0,Non Smoker,Northwest,4571.41305,Yes
+34,Male,42.9,1,Non Smoker,Southwest,4536.259,Yes
+19,Female,34.7,2,Smoker,Southwest,36397.576,Yes
+30,Female,23.655,3,Smoker,Northwest,18765.87545,No
+18,Male,28.31,1,Non Smoker,Northeast,11272.33139,No
+19,Female,20.6,0,Non Smoker,Southwest,1731.677,No
+18,Male,53.13,0,Non Smoker,Southeast,1163.4627,Yes
+35,Male,39.71,4,Non Smoker,Northeast,19496.71917,No
+39,Female,26.315,2,Non Smoker,Northwest,7201.70085,No
+31,Male,31.065,3,Non Smoker,Northwest,5425.02335,No
+62,Male,26.695,0,Smoker,Northeast,28101.33305,Yes
+62,Male,38.83,0,Non Smoker,Southeast,12981.3457,Yes
+42,Female,40.37,2,Smoker,Southeast,43896.3763,Yes
+31,Male,25.935,1,Non Smoker,Northwest,4239.89265,No
+61,Male,33.535,0,Non Smoker,Northeast,13143.33665,Yes
+42,Female,32.87,0,Non Smoker,Northeast,7050.0213,Yes
+51,Male,30.03,1,Non Smoker,Southeast,9377.9047,Yes
+23,Female,24.225,2,Non Smoker,Northeast,22395.74424,No
+52,Male,38.6,2,Non Smoker,Southwest,10325.206,Yes
+57,Female,25.74,2,Non Smoker,Southeast,12629.1656,Yes
+23,Female,33.4,0,Non Smoker,Southwest,10795.93733,Yes
+52,Female,44.7,3,Non Smoker,Southwest,11411.685,No
+50,Male,30.97,3,Non Smoker,Northwest,10600.5483,No
+18,Female,31.92,0,Non Smoker,Northeast,2205.9808,Yes
+18,Female,36.85,0,Non Smoker,Southeast,1629.8335,Yes
+21,Female,25.8,0,Non Smoker,Southwest,2007.945,No
+61,Female,29.07,0,Smoker,Northwest,29141.3603,Yes

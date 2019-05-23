@@ -1,0 +1,262 @@
+---
+title: "K-means Clustering"
+author: "Muhammad Apriandito"
+date: "5/21/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## K-means Cluster Analysis
+Clustering adalah serangkaian teknik untuk menemukan sub-kelompok dalam suatu set data. Clustering memungkinkan kita untuk mengidentifikasi sub-kelompok yang sama, dan kemunkinan dapat dikategorikan. 
+
+K-means clustering adalah metode pengelompokan yang paling sederhana dan umum digunakan untuk memisahkan dataset ke dalam sekumpulan sub-kelompok (K). 
+ 
+## Library
+
+Untuk membuat K-Means Clusterering di R, ada beberapa package yang dibutuhkan diantaranya package "tidyverse", "cluster", dan "factoextra".
+
+tidyverse -> Data Manipulation
+cluster -> Clustering Algorithms
+factoextra -> Clustering algorithms & visualization
+
+```{r}
+# Panggil library yang diperlukan
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+## Data Preparation 
+Umumnya, dalam melakukan Cluster Analysis. Beberapa tahapan data pre-procssing yang perlu dilakukan :
+
+1. Menghapus/Mengolah Data Hilang
+2. Normalisasi/Normalisasi
+
+Dalam praktek kali ini kita akan menggunakan dataset bawaan R yaitu "USArrests". yang merupakan dataset menganai tingkat kejahatan di 50 Negara Bagian Amerika Serikat pada tahun 1973. 
+
+```{r}
+#Memanggil dataset
+df <- USArrests
+
+#Melihat Dimensi Data
+dim(df)
+
+#Melihat 10 Baris Pertama mnggunakan fungsi head
+head(df, 10)
+
+```
+
+```{r}
+#Mengecek apakah ada Data Kosong (N/A) dalam data. 
+sum(is.na(df))
+```
+
+Dapat dilihat bahwa tidak ada data kosong didalam dataset tersebut, sehingga tidak perlu adanya langkah lebih lanjut terkait data kosong.
+
+
+Selanjutnya, untuk membuat semua feature dalam dataset memliki skala yang sama (0-1) kita perlu melalukan standarisasi / penyetaraan skala. Standarisasi dapat dilakukan menggunkan fungsi "scale()". 
+
+```{r}
+#Lakukan Standarisasi dan assign ke variable baru dengan nama "dfnorm".  
+dfnorm <- scale(df)
+```
+
+Mari kita cek data kita, setelah dilakukan normalisasi:
+
+```{r}
+#Melihat 5 data teratas pada dataset yang telah dinormalisasi
+head(dfnorm, 10)
+```
+
+## Clustering Distance Measures
+
+Pemilihan Disctance Measures merupakan tahapan penting dalam clustering, karena akan berpengaruh pada hasil/bentuk clustering. Beberapa distance measures yang umum digunakan adalah Euclidean and Manhattan distances.Pada praktek kali ini kita akan menggunakan Euclidean distance sebagai distance measures. 
+
+Dalam R, untuk menghitung dan memvisualisasikan distance matrix, kita dapat menggunakan fungsi "get_dist()" dan "fviz_dist()". Di visualisasi ini kita akan menggunakan Warna merah untuk menunjukkan adanya perbedaan dan warna biru mennujukkan adanya persamaan/Kemiripan. 
+
+Keterangan Fungsi:
+- get_dist: untuk menghitung distance matrix antar raw. Default: Euclidean Distance
+- fviz_dist: untuk memvisualisasi distance matrix. 
+
+```{r}
+#Menhitung Ditance Matrix menggunakan fungsi get_distance()
+distance <- get_dist(dfnorm, method = "euclidean" )
+
+#Memvisualisasikan Distance Matrix menggunakan fungsi fviz_dist()
+fviz_dist(distance, gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+```
+
+
+#Computing k-means clustering in R
+Kita dapat menghitung k-means dalam R dengan fungsi "kmeans". kali ini kita akan mengelompokkan data menjadi dua kelompok (centers = 2). 
+
+Fungsi kmeans juga memiliki opsi nstart yang mencoba beberapa konfigurasi awal dan menginformasikan yang terbaik. Contohnya, menambahkan nilai nstart = 25 akan menghasilkan 25 konfigurasi awal. 
+
+```{r}
+#Membuat Model K-Means Klustering dengan Jumlah K =2, nstart = 25, dengan nama K2
+k2 <- kmeans(dfnorm, centers = 2, nstart = 25)
+str(k2)
+```
+
+Keterangan:
+1.cluster -> Sebuah vektor bilangan bulat (dari 1: k) yang menunjukkan cluster yang dialokasikan setiap titik.
+2.center-> pusat dari matrix cluster.
+3.totss -> total sum of squares.
+4.withinss -> Vektor jumlah dalam-cluster kuadrat, satu komponen per cluster.
+5.tot.withinss -> Total within-cluster sum of squares, i.e. sum(withinss).
+6.betweenss -> The between-cluster sum of squares, i.e. $totss-tot.withinss$.
+7.size -> Jumlah Point disetiap Cluster
+
+Kita juga dapat memprint hasil kluster. 
+```{r}
+
+#Print Hasil Kluster
+k2
+
+```
+
+kita juga dapat melihat hasil dengan menggunakan "fviz_cluster". Ini memberikan ilustrasi yang bagus tentang cluster.
+
+
+```{r}
+# visualisasi kluster menggunakan fungsi Fviz_cluster
+fviz_cluster(k2, data = dfnorm)
+```
+
+Sebagai alternatif, kita dapat menggunakan scatter plots untuk menggambarkan kelompok dibandingkan dengan variabel asli.
+
+```{r}
+#Visualisasi ScatterPlots menggunakan ggplot2
+dfnorm %>%
+  as_tibble() %>%
+  mutate(cluster = k2$cluster,
+         state = row.names(USArrests)) %>%
+  ggplot(aes(UrbanPop, Murder, color = factor(cluster), label = state)) +
+  geom_text()
+```
+
+Karena jumlah cluster (k) harus ditetapkan sebelum kita memulai algoritma, seringkali menguntungkan untuk menggunakan beberapa nilai k yang berbeda dan memeriksa perbedaan dalam hasil. Kita dapat menjalankan proses yang sama untuk 3, 4, dan 5 cluster.
+
+
+
+```{r}
+#Membuat Untuk kluster dengan masing-masing K =3.4.5
+k3 <- kmeans(dfnorm, centers = 3, nstart = 25)
+k4 <- kmeans(dfnorm, centers = 4, nstart = 25)
+k5 <- kmeans(dfnorm, centers = 5, nstart = 25)
+
+# Membuat Komparasi Plot
+p1 <- fviz_cluster(k2, geom = "point", data = dfnorm) + ggtitle("k = 2")
+p2 <- fviz_cluster(k3, geom = "point",  data = dfnorm) + ggtitle("k = 3")
+p3 <- fviz_cluster(k4, geom = "point",  data = dfnorm) + ggtitle("k = 4")
+p4 <- fviz_cluster(k5, geom = "point",  data = dfnorm) + ggtitle("k = 5")
+
+#install packages gridExtra
+library(gridExtra) 
+grid.arrange(p1, p2, p3, p4, nrow = 2)
+
+```
+
+##Determining Optimal Clusters
+Untuk membantu analis, berikut ini merupakan dua metode yang populer untuk menentukan nilai Optimal CLuter:
+1. Elbow method
+2. Silhouette method
+
+
+#Elbow Method
+```{r}
+set.seed(123)
+
+# function to compute total within-cluster sum of square 
+wss <- function(k) {
+  kmeans(dfnorm, k, nstart = 10 )$tot.withinss
+}
+
+# Compute and plot wss for k = 1 to k = 15
+k.values <- 1:15
+
+# extract wss for 2-15 clusters
+wss_values <- map_dbl(k.values, wss)
+
+plot(k.values, wss_values,
+       type="b", pch = 19, frame = FALSE, 
+       xlab="Number of clusters K",
+       ylab="Total within-clusters sum of squares")
+```
+Hasilnya menunjukkan bahwa 4 adalah jumlah cluster optimal karena berada diposisi siku. 
+
+
+Kita dengan cepat dapat menghitung Elbow Method menggunakan fungsi fviz_nbclust()
+
+```{r}
+#Set Seed (Jangan Dihapus)
+set.seed(123)
+
+#Visualisasi Elbow Method menggunakan fungsi fviz_nbclust()
+fviz_nbclust(dfnorm, kmeans, method = "wss")
+```
+
+
+#Average Silhouette Method
+Singkatnya, pendekatan siluet mengukur kualitas pengelompokan. Artinya, menentukan seberapa baik setiap objek terletak di dalam klusternya. Lebar siluet rata-rata yang tinggi menunjukkan pengelompokan yang baik
+
+Kita bisa menggunakan fungsi Silhouette dalam package cluster untuk menghitung lebar Silhouette rata-rata. code berikut menghitung pendekatan ini untuk 1-15 cluster. Hasilnya menunjukkan bahwa 2 klaster memaksimalkan nilai rata-rata Silhouette dengan 4 klaster yang masuk sebagai jumlah klaster optimal kedua.
+
+```{r}
+# function to compute average silhouette for k clusters 
+avg_sil <- function(k) {
+  km.res <- kmeans(dfnorm, centers = k, nstart = 25)
+  ss <- silhouette(km.res$cluster, dist(df))
+  mean(ss[, 3])
+}
+
+# Compute and plot wss for k = 2 to k = 15
+k.values <- 2:15
+
+# extract avg silhouette for 2-15 clusters
+avg_sil_values <- map_dbl(k.values, avg_sil)
+
+plot(k.values, avg_sil_values,
+       type = "b", pch = 19, frame = FALSE, 
+       xlab = "Number of clusters K",
+       ylab = "Average Silhouettes")
+```
+
+Kita dengan cepat dapat menghitung Average Silhouette dalam satu fungsi fviz_nbclust.
+
+```{r}
+#Visualisasi Average Silhoutte menggunakan fugsi fviz_nbclust()
+fviz_nbclust(dfnorm, kmeans, method = "silhouette")
+```
+
+
+#Extracting Results
+Dengan sebagian besar pendekatan ini menyarankan 4 sebagai jumlah cluster optimal, kita dapat melakukan analisis akhir dan mengekstraksi hasilnya menggunakan 4 cluster.
+
+```{r}
+# Compute k-means clustering with k = 4
+set.seed(123)
+final <- kmeans(dfnorm, 4, nstart = 25)
+print(final)
+```
+
+kita dapat memvisualisasikan hasil menggunakan (fviz_cluster)
+```{r}
+# Visualisasi Final Cluster
+fviz_cluster(final, data = dfnorm)
+```
+
+Dan kita dapat mengekstrak cluster dan menambah data awal kita untuk melakukan beberapa statistik deskriptif di tingkat cluster
+
+```{r}
+USArrests %>%
+  mutate(Cluster = final$cluster) %>%
+  group_by(Cluster) %>%
+  summarise_all("mean")
+```
+
+
+

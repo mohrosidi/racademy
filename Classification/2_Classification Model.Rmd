@@ -1,0 +1,261 @@
+---
+title: "Classification"
+author: "Muhammad Apriandito"
+date: "5/23/2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Pada Praktek kali ini kita akan membuat model klasifikasi dengan algoritma Decision Tree, Naive Bayes, dan K-NN menggunakan dataset insurance. Dataset ini merupakan dataset yang didapatkan dari kaggle, namun telah melalui tahapan pre-processing. sehingga data yang digunakan sudah dalam kondisi baik/siap digunakan. 
+
+## Decision Tree
+
+### Import Library
+```{r}
+# Import Library
+library(rpart)
+library(rattle)
+library(rpart.plot)
+library(RColorBrewer)
+library(skimr)
+```
+
+### Import Dataset
+```{r}
+#Import Data
+insurance <- read.csv("insurance.csv")
+```
+
+### Data Exploration
+```{r}
+#Melihat Kondisi Data
+dim(insurance)
+head(insurance,10)
+```
+
+```{r}
+# ringkasan data
+skim(insurance)
+
+#Melihat Data Kosong
+sum(is.na(insurance))
+```
+
+### Data Preprocessing
+```{r}
+#Membangi Data Ke Training dan Testing (70:30)
+index_train <- sample(1:nrow(insurance), 0.7 * nrow(insurance))
+train <- insurance[index_train, ]
+test <- insurance[-index_train, ]
+```
+
+### Model Building
+```{r}
+#Membuat Model Decison Tree Untuk Mengklasifikasi Apakah Seseorang akan klaim Asuransi atau tidak. 
+tree <- rpart(Claim ~., train, method = "class")
+```
+
+```{r}
+#Memvisualisasikan Model Decision Tree
+prp(tree)
+```
+
+```{r}
+#Memvisualisasikan Decison Tree dengan lebih informatif
+fancyRpartPlot(tree)
+```
+
+```{r}
+#Menggunakan Untuk Melakukan Prediksi Pada Data Testing
+prediction <- predict(tree, test, type = "class")
+```
+
+### Validation
+```{r}
+#Validasi Menggunakan Confussion Matrix
+conf <- table(test$Claim, prediction)
+conf
+```
+
+```{r}
+TP <- conf[1, 1] 
+FN <- conf[1, 2] 
+FP <- conf[2, 1] 
+TN <- conf[2, 2] 
+```
+
+```{r}
+#Menghitung Nilai Akurasi
+acc <- (TP + TN)/(TP + FN + FP + TN)
+accdt <- acc
+acc
+```
+
+```{r}
+#Menghitung Nilai Precision
+prec <- TP / (TP + FP)
+prec
+```
+
+```{r}
+#Menghitung Nilai Recall
+rec <- TP / (TP + FN)
+rec
+```
+
+## Naive Bayes
+
+### Import Library
+```{r}
+#Import Library
+library(naivebayes)
+```
+
+### Model Building
+```{r}
+#Membuat model prediksi Naive Bayes
+nb <- naive_bayes(Claim ~ ., data = train)
+
+#Melihat model yang telah dibuat 
+nb
+```
+
+```{r}
+#Visualisasi Model
+par(mfrow=c(2,4))
+plot(nb)
+```
+
+```{r}
+#Melakukan prediksi dengan data testing
+pred_nb <- predict(nb, as.data.frame(test))
+```
+
+### Validation
+```{r}
+#Membuat Confussion Matrix Naive Bayes
+confnb <- table(test$Claim, pred_nb)
+confnb
+```
+
+```{r}
+TPn <- confnb[1, 1] 
+FNn <- confnb[1, 2] 
+FPn <- confnb[2, 1] 
+TNn <- confnb[2, 2] 
+```
+
+```{r}
+#Menghitung Nilai Akurasi
+accnb <- (TPn + TNn)/(TPn + FNn + FPn + TNn)
+accnb
+```
+
+```{r}
+#Menghitung Nilai Precision
+precnb <- TPn / (TPn + FPn)
+precnb
+```
+
+```{r}
+#Menghitung Nilai Recall
+recnb <- TPn / (TPn + FNn)
+recnb
+```
+
+# K-NN
+
+### Import Library
+```{r}
+#import library yang dibutuhkan
+library(class)
+library(tidyverse)
+```
+
+### Data Pre-Processing
+```{r}
+#Mengubah Data Ke Tipe Numerik
+insurance1 <- insurance %>% mutate_if(is.factor, as.numeric)
+```
+
+```{r}
+#Membuat fungsi Normalisasi
+normalize<-function(x){
+  temp<-(x-min(x))/(max(x)-min(x))
+  return(temp)
+}
+```
+
+```{r}
+#Melakukan Normalisasi
+kinsurance_n<-as.data.frame(lapply(insurance1[,c(1:7)],normalize))
+```
+
+```{r}
+#Membagi ke Data Train dan Data Testing
+index_train <- sample(1:nrow(kinsurance_n), 0.7 * nrow(kinsurance_n))
+kinsurance_train <- kinsurance_n[index_train, ]
+kinsurance_test <- kinsurance_n[-index_train, ]
+```
+
+```{r}
+#Mengambil Label
+kinsurance_train_target<-insurance1[index_train,8]
+kinsurance_test_target<-insurance1[-index_train, 8]
+```
+
+### Model Building
+```{r}
+#Membuat KNN-Model dengan Nilai K=2
+knnmodel <-knn(train=kinsurance_train,test=kinsurance_test,cl=kinsurance_train_target,k=2)
+```
+
+### Validation
+```{r}
+#Validasi Menggunakan Confussion Matrix
+confknn <- table(kinsurance_test_target, knnmodel)
+confknn
+```
+
+```{r}
+TPk <- confknn[1, 1] 
+FNk <- confknn[1, 2] 
+FPk <- confknn[2, 1] 
+TNk <- confknn[2, 2]
+```
+
+```{r}
+#Melihat Nilai Akurasi K-NN
+acck <- (TPk + TNk)/(TPk + FNk + FPk + TNk)
+acck
+```
+
+```{r}
+#Melihat Nilai Precision K-NN
+preck <- TPk / (TPk + FPk)
+preck
+```
+
+```{r}
+#Melihat Nilai Recall K-NN
+reck <- TPk / (TPk + FNk)
+reck
+```
+
+## Model Comparison
+```{r}
+#Nilai Akurasi Decision Tree
+accdt
+
+#Nilai Akurasi Naive Bayes
+accnb
+
+#Nilai Akurasi K-NN
+acck
+```
+

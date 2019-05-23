@@ -1,0 +1,82 @@
+---
+title: "Regression"
+author: "Muhammad Apriandito"
+date: "5/23/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Analisis regresi dalam statistika adalah salah satu metode untuk menentukan hubungan sebab-akibat antara satu variabel dengan variabel(-variabel) yang lain. Analisis regresi adalah salah satu analisis yang paling populer dan luas pemakaiannya. Analisis regresi dipakai secara luas untuk melakukan prediksi dan ramalan, dengan penggunaan yang saling melengkapi dengan bidang pembelajaran mesin. Analisis ini juga digunakan untuk memahami variabel bebas mana saja yang berhubungan dengan variabel terikat, dan untuk mengetahui bentuk-bentuk hubungan tersebut.
+
+# Linear Regression
+Regresi linear adalah model statistik yang dipergunakan untuk mengetahui pengaruh antara satu atau beberapa variabel terhadap satu buah variabel. Variabel yang mempengaruhi sering disebut sebagai variabel independen. Variabel yang dipengaruhi sering disebut dengan variabel dependen.
+
+### Import and understand the data
+```{r}
+#Mengimport Data.
+datagaji = read.csv('Salary_Data.csv')
+
+#Melihat Attribute dan Struktur Data.
+names(datagaji)
+str(datagaji)
+```
+Tahap pertama adalah mengimport dan mempelajari tipe dan struktur data. Dapat dilihat bahwa data hanya memiliki 2 attribute yaitu YearsExperience dan Salary. Kedua attribute tersebut bertipe numeric.
+
+
+### Creating Linear Regression Model
+Dalam praktek kali ini kita akan membuat model regresi linear untuk memprediksi nilai gaji(salary) berdasarkan waktu pengalaman bekerja (Years Experience). 
+```{r}
+# Membuat model 
+# lm([target attribute] ~ [predictor attributes], data = [data source])
+set.seed(1234)
+linearmodel = lm(Salary ~ YearsExperience,
+               data = datagaji)
+
+#Melihat model yang dibuat. 
+linearmodel
+
+#melihat summary model yang dibuat. 
+summary(linearmodel)
+```
+
+Dari hasil diatas, kita dapat melihat bahwa persaman regresi linear dari model tersebut adalah,
+
+```{r}
+# Salary = Intercept + (Slope*Years Experience)
+```
+
+Contoh kasus, bila ada pekerja telah memiliki pengalaman bekerja selama 2 tahun,  nilai intercept = 25792, dan nilai Slope (YearsExperience) = 9450, dapat diprediksi bahwa gaji dari pegawai tersebut berkisar 25792+(9450*2) = 44.692. 
+
+#### Residual
+Salah satu cara untuk menguji kualitas kesesuaian model regressi adalah dengan melihat nilai residual atau perbedaan antara nilai riil dan nilai prediksi. Model yang bagus memiliki nilai residu yang kecil (mendekati nol). 
+
+```{r}
+#Melihat nilai residual
+summary(linearmodel$residuals)
+```
+
+### Diagnostic plot Visualization
+Di R, kita dapat memahami model melaui diagnostic plot:
+
+```{r}
+par(mfrow=c(2,2))
+plot(linearmodel)
+```
+
+###### - Plot dikiri-atas menunjukkan perbandingan residu dengan nilai fitted, dalam plot tersebut,residu mewakili jarak vertikal dari satu titik ke garis regresi. Jika semua titik berada tepat di garis regresi, semua residu akan berada tepat di garis abu-abu putus-putus. Garis merah di dalam plot adalah kurva yang berhubyngan dengan residu. Jika semua titik berada tepat di garis regresi, posisi garis merah harus sama persis dengan garis abu-abu bertitik.
+
+###### - Plot kanan atas menunjukkan normal residual. Plot ini memverifikasi asumsi bahwa residu terdistribusi normal. Jadi, jika residu terdistribusi normal, mereka seharusnya terletak tepat di garis putus-putus abu-abu.
+
+###### -  Plot Scale-Location di kiri-bawah digunakan untuk mengukur akar kuadrat dari residu terstandarisasi terhadap nilai fitted. Oleh karena itu, jika semua titik terletak pada garis regresi, nilai y harus mendekati nol. Karena diasumsikan bahwa varians residu tidak mengubah distribusi secara substansial, jika asumsinya benar, garis merah harus relatif datar.
+
+###### -  Plot kanan-bawah menunjukkan perbadingan residu standar dengan leverage. Leverage adalah pengukuran tentang bagaimana setiap titik data mempengaruhi regresi. Ini adalah pengukuran jarak dari pusat massa regresi dan tingkat isolasi (diukur dengan apakah ia memiliki tetangga). Selain itu, kita dapat melihat cook's distance, yang dipengaruhi oleh leverage tinggi dan residu besar. Kita dapat menggunakan ini untuk mengukur bagaimana regresi akan berubah jika satu titik dihapus. Garis merah halus berkenaan dengan residu standar. Untuk regresi sempurna, garis merah harus dekat dengan garis putus-putus tanpa poin lebih dari 0,5 dalam jarak Cook.
+
+
+### Model Visualization
+```{r}
+#Memvisualisasikan Model Linear Regression
+plot(datagaji, pch = 16, col = "blue") 
+abline(linearmodel)
+
+```
