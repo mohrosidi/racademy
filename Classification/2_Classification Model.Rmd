@@ -48,6 +48,7 @@ sum(is.na(insurance))
 
 ### Data Preprocessing
 ```{r}
+set.seed(123)
 #Membangi Data Ke Training dan Testing (70:30)
 index_train <- sample(1:nrow(insurance), 0.7 * nrow(insurance))
 train <- insurance[index_train, ]
@@ -207,12 +208,17 @@ kinsurance_test <- kinsurance_n[-index_train, ]
 #Mengambil Label
 kinsurance_train_target<-insurance1[index_train,8]
 kinsurance_test_target<-insurance1[-index_train, 8]
+
+barplot(table(kinsurance_train_target), col=c("red","blue"))
+barplot(table(kinsurance_test_target), col=c("red","blue"))
 ```
 
 ### Model Building
 ```{r}
 #Membuat KNN-Model dengan Nilai K=2
 knnmodel <-knn(train=kinsurance_train,test=kinsurance_test,cl=kinsurance_train_target,k=2)
+
+knnmodel
 ```
 
 ### Validation
