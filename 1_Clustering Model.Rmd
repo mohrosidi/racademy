@@ -27,8 +27,6 @@ factoextra -> Clustering algorithms & visualization
 library(tidyverse)
 library(cluster)
 library(factoextra)
-library(ggmap)
-library(forcats)
 
 ```
 
