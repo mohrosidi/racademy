@@ -181,7 +181,7 @@ library(tidyverse)
 ### Data Pre-Processing
 ```{r}
 #Mengubah Data Ke Tipe Numerik
-insurance1 <- insurance %>% mutate_if(is.factor, as.numeric)
+insurance1 <- insurance %>% select(-Claim) %>%  mutate_if(is.factor, as.numeric)
 ```
 
 ```{r}
@@ -194,7 +194,7 @@ normalize<-function(x){
 
 ```{r}
 #Melakukan Normalisasi
-kinsurance_n<-as.data.frame(lapply(insurance1[,c(1:7)],normalize))
+kinsurance_n<-as.data.frame(lapply(insurance1,normalize))
 ```
 
 ```{r}
@@ -206,8 +206,8 @@ kinsurance_test <- kinsurance_n[-index_train, ]
 
 ```{r}
 #Mengambil Label
-kinsurance_train_target<-insurance1[index_train,8]
-kinsurance_test_target<-insurance1[-index_train, 8]
+kinsurance_train_target<-insurance[index_train,8]
+kinsurance_test_target<-insurance[-index_train, 8]
 
 barplot(table(kinsurance_train_target), col=c("red","blue"))
 barplot(table(kinsurance_test_target), col=c("red","blue"))
